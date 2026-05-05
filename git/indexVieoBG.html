@@ -1,0 +1,1826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Top Secret Detailing Studio | Car Detailing, Ceramic Coating & PPF in Bangalore</title>
+
+<!-- SEO Meta -->
+<meta name="description" content="Top Secret Detailing Studio — Premium car detailing, ceramic coating, PPF, paint correction and window tint in Bangalore. 5-star rated, 200+ vehicles detailed. Call +91 96320 45724.">
+<meta name="keywords" content="car detailing Bangalore, ceramic coating Bangalore, PPF Bangalore, paint correction, window tint, Top Secret Detailing Studio">
+<meta name="author" content="Top Secret Detailing Studio">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph / Social Sharing -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Top Secret Detailing Studio | Premium Car Detailing in Bangalore">
+<meta property="og:description" content="Premium car detailing, ceramic coating, PPF and paint correction in Bangalore. 5-star rated, 200+ vehicles detailed. Call +91 96320 45724.">
+<meta property="og:image" content="https://www.topsecretdetailingblr.in/images/topSecretTeamBanglore.jpeg">
+<meta property="og:url" content="https://www.topsecretdetailingblr.in">
+<meta property="og:site_name" content="Top Secret Detailing Studio">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Top Secret Detailing Studio | Premium Car Detailing in Bangalore">
+<meta name="twitter:description" content="Premium car detailing, ceramic coating, PPF and paint correction in Bangalore.">
+<meta name="twitter:image" content="https://www.topsecretdetailingblr.in/images/topSecretTeamBanglore.jpeg">
+
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+<style>
+:root {
+  --red: #A80521;
+  --red-bright: #A80521;
+  --black: #080808;
+  --surface: #0d0d0d;
+  --card: #141414;
+  --line: #242424;
+  --line-hover: #333;
+  --grey: #C8CACD;
+  --grey-mid: #9A9C9F;
+  --grey-dim: #6a6a6a;
+  --white: #F4F4F4;
+  --ft: 'Bebas Neue', sans-serif;
+  --fb: 'DM Sans', sans-serif;
+}
+
+/* ── RESET ── */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--black);color:var(--white);font-family:var(--fb);font-weight:300;line-height:1.7;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+p{margin:0;padding:0}
+
+/* ── NAV ── */
+.headermain{
+  position:fixed;top:0;left:0;right:0;z-index:1000;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:16px 5%;
+  background:transparent;
+  backdrop-filter:blur(0px);-webkit-backdrop-filter:blur(0px);
+  transition:background 0.4s,padding 0.3s,backdrop-filter 0.4s;
+}
+.headermain.scrolled{background:rgba(168,5,33,0.3);backdrop-filter:blur(7px);-webkit-backdrop-filter:blur(7px);padding:11px 5%;}
+.logomain{height:38px;width:auto;}
+.mainnav{display:flex;gap:2px;list-style:none;}
+.mainnav a{
+  color:var(--white);font-family:var(--fb);font-weight:500;
+  padding:7px 15px;font-size:0.86rem;letter-spacing:0.6px;
+  transition:color 0.2s;white-space:nowrap;
+  text-shadow:0 1px 3px rgba(0,0,0,0.9),0 0 12px rgba(0,0,0,0.6);
+}
+.mainnav a:hover{color:rgba(255,255,255,0.75);}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:4px;}
+.hamburger span{display:block;width:22px;height:2px;background:var(--white);border-radius:1px;transition:all 0.3s;}
+.hamburger.open span:nth-child(1){transform:translateY(7px) rotate(45deg);}
+.hamburger.open span:nth-child(2){opacity:0;}
+.hamburger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+.mobile-nav{
+  display:none;position:fixed;inset:0;z-index:999;
+  background:rgba(0,0,0,0.97);
+  flex-direction:column;align-items:center;justify-content:center;gap:28px;
+  opacity:0;pointer-events:none;transition:opacity 0.3s;
+}
+.mobile-nav.open{opacity:1;pointer-events:all;}
+.mobile-nav a{font-family:var(--ft);font-size:2.6rem;letter-spacing:3px;color:var(--white);transition:color 0.2s;}
+.mobile-nav a:hover{color:var(--red);}
+
+/* ── HERO ── */
+.main{position:relative;width:100%;height:100vh;overflow:hidden;}
+.hero-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;display:block;}
+.hero-video {
+  filter: brightness(0.5) contrast(1.2) saturate(1.2);
+  transition: filter 0.3s ease-in-out;
+}
+.hero-video:hover {
+  filter: brightness(0.7) contrast(1.1) saturate(1.1);
+}
+.hero-overlay{position:absolute;bottom:10%;left:5%;z-index:10;pointer-events:none;}
+.hero-line{display:block;font-family:var(--ft);font-size:clamp(2.8rem,7vw,6rem);letter-spacing:0.18em;color:var(--white);overflow:hidden;line-height:1.1;}
+.hero-line span{
+  display:block;transform:translateY(110%);opacity:0;
+  animation:heroReveal 0.8s cubic-bezier(0.16,1,0.3,1) forwards;
+}
+.hero-line:nth-child(1) span{animation-delay:0.3s;}
+.hero-line:nth-child(2) span{animation-delay:0.3s;}
+.hero-line:nth-child(3) span{animation-delay:0.5s; color:var(--white) !important;}
+.hero-line:nth-child(4) span{animation-delay:0.7s; color:var(--red);}
+.hero-divider{width:0;height:2px;background:var(--red);margin:10px 0;animation:expandLine 0.6s ease 1.1s forwards;}
+@keyframes heroReveal{to{transform:translateY(0);opacity:1;}}
+@keyframes expandLine{to{width:100px;}}
+
+/* ── SECTION HEADINGS ── */
+h2{
+  font-family:var(--ft);font-weight:400;
+  font-size:clamp(1.8rem,5vw,3rem);
+  text-transform:uppercase;color:var(--red);
+  letter-spacing:0.25rem;text-align:center;
+  margin:0 0 20px;
+}
+h5{font-family:var(--ft);font-weight:400;letter-spacing:1.5px;}
+
+/* ── SERVICES ── */
+.services-heading{
+  font-family:var(--ft);font-weight:400;
+  font-size:clamp(1.8rem,5vw,3rem);
+  text-transform:uppercase;color:var(--red);
+  letter-spacing:0.25rem;text-align:center;
+  margin:40px 0 20px;padding:0 5%;
+}
+.services{
+  display:flex;align-items:center;gap:30px;
+  padding:0 5% 50px;max-width:1400px;margin:0 auto;width:100%;
+}
+.services-provided{flex:1;display:flex;flex-direction:column;}
+.services-provided div{
+  font-size:clamp(1.3rem,2.5vw,1.9rem);
+  font-family:var(--ft);color:var(--white);
+  padding:11px 16px;line-height:1.2;text-transform:uppercase;
+  border-left:2px solid transparent;
+  transition:color 0.2s,border-color 0.2s,padding-left 0.2s;
+  cursor:pointer;
+}
+.services-provided div:hover{color:var(--red);padding-left:26px;border-left-color:var(--red);}
+
+/* before/after swipe */
+.swipe-container{
+  position:relative;width:100%;max-width:500px;height:360px;
+  overflow:hidden;border:2px solid var(--red);
+  cursor:ew-resize;user-select:none;touch-action:none;
+  background:var(--card);flex:1;border-radius:4px;
+}
+.img-left,.img-right{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none;}
+.img-left{z-index:1;}
+.img-right{z-index:2;clip-path:inset(0 0 0 50%);}
+.divider-line{position:absolute;top:0;bottom:0;left:50%;width:2px;background:var(--red);transform:translateX(-50%);z-index:10;pointer-events:none;}
+.divider-handle{
+  position:absolute;top:50%;left:50%;
+  transform:translate(-50%,-50%);
+  width:40px;height:40px;border-radius:50%;
+  background:var(--red);z-index:11;pointer-events:none;
+  display:flex;align-items:center;justify-content:center;
+}
+.divider-handle svg{width:14px;height:14px;fill:white;}
+
+/* ── BRANDS ── */
+.brands-section{padding:40px 5%;}
+.marquee-wrapper{position:relative;overflow:visible;cursor:grab;user-select:none;-webkit-user-select:none;scrollbar-width:none;-ms-overflow-style:none;margin-top:24px;}
+.marquee-wrapper::-webkit-scrollbar{display:none;}
+.marquee-wrapper::before,.marquee-wrapper::after{
+  content:'';position:absolute;top:0;bottom:0;width:80px;z-index:2;pointer-events:none;
+}
+.marquee-wrapper::before{left:0;background:linear-gradient(to right,transparent,transparent);}
+.marquee-wrapper::after{right:0;background:linear-gradient(to left,transparent,transparent);}
+.marquee-track{display:flex;gap:20px;width:max-content;white-space:nowrap;}
+@keyframes marqueeScroll{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+.brand-card{
+  flex:0 0 150px;width:150px;min-height:100px;
+  background:white;border-radius:8px;padding:16px 12px;
+  display:flex;align-items:center;justify-content:center;
+  transition:transform 0.2s;
+}
+.brand-card:hover{transform:translateY(-3px);}
+.brand-logo{max-width:100%;max-height:70px;object-fit:contain;width:auto;height:auto;}
+.brand-card img[src*="brandCarpro"]{object-fit:contain;max-width:95%;max-height:65px;width:auto;height:auto;}
+
+/* ── ABOUT ── */
+.about{padding:60px 5%;}
+.about-content{display:flex;align-items:center;gap:48px;max-width:1200px;margin:0 auto;}
+.about-content p{flex:1;font-size:1.05rem;line-height:2;text-align:justify;color:var(--grey);font-weight:300;}
+.about-content img{width:42%;flex-shrink:0;height:auto;border-radius:4px;}
+
+/* ── WHY CHOOSE US — pure CSS layout, no JS needed ── */
+.why-section{padding:70px 5% 0;}
+.why-row{
+  display:grid;
+  grid-template-columns:72px 1fr 1fr;
+  gap:0 48px;
+  padding:44px 0;
+  border-bottom:1px solid var(--line);
+  align-items:start;
+  max-width:900px;
+}
+.why-row:first-child{border-top:1px solid var(--line);}
+.why-index{
+  font-family:var(--ft);font-size:3.8rem;
+  color:#3a3a3a;line-height:1;letter-spacing:-1px;
+  padding-top:6px;
+}
+.why-kicker{
+  font-family:var(--ft);font-size:0.65rem;letter-spacing:0.32em;
+  color:var(--red-bright);text-transform:uppercase;margin-bottom:8px;display:block;
+}
+.why-headline{
+  font-family:var(--ft);font-size:2.5rem;
+  color:var(--white);text-transform:uppercase;line-height:1.2;
+}
+.why-stat{
+  font-family:var(--ft);font-size:3rem;
+  color:var(--red-bright);line-height:1;letter-spacing:-1px;
+  margin-top:10px;display:block;
+}
+.why-right{padding-top:4px;}
+.why-body{
+  font-size:1.15rem;color:var(--grey);
+  line-height:1.9;font-weight:300;margin-bottom:16px;
+}
+.why-chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:4px;}
+.why-chip{
+  font-family:var(--ft);font-size:0.6rem;letter-spacing:0.18em;
+  color:var(--grey-mid);
+  border:1px solid #333;
+  padding:5px 13px;border-radius:3px;text-transform:uppercase;
+}
+
+/* ── CERTIFICATIONS ── */
+.cert-section{
+  padding:0;
+  border-bottom:1px solid var(--line);
+  overflow:hidden;
+}
+.cert-eyebrow{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:36px 5% 0;max-width:1400px;margin:0 auto;
+}
+.cert-eyebrow-label{
+  font-family:var(--ft);font-size:0.65rem;letter-spacing:0.4em;
+  color:var(--red-bright);text-transform:uppercase;
+}
+.cert-eyebrow-count{
+  font-family:var(--ft);font-size:0.65rem;letter-spacing:0.25em;
+  color:var(--grey-dim);text-transform:uppercase;
+}
+.cert-main-title{
+  font-family:var(--ft);
+  font-size:clamp(2rem,5vw,3.2rem);
+  color:var(--white);letter-spacing:0.2rem;text-transform:uppercase;
+  padding:12px 5% 32px;max-width:1400px;margin:0 auto;
+  border-bottom:1px solid var(--line);
+}
+.cert-body{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  max-width:1400px;margin:0 auto;
+}
+.cert-featured{
+  position:relative;
+  height:100%;
+  overflow:hidden;
+  border-right:1px solid var(--line);
+}
+.cert-slide{position:absolute;inset:0;opacity:0;transition:opacity 1s ease;}
+.cert-slide.active{opacity:1;}
+.cert-slide img{width:100%;height:100%;object-fit:cover;display:block;}
+.cert-slide-overlay{
+  position:absolute;inset:0;
+  background:linear-gradient(to top,rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.1) 55%,transparent 100%);
+  pointer-events:none;
+}
+.cert-slide-meta{
+  position:absolute;bottom:0;left:0;right:0;
+  padding:32px 28px 24px;
+}
+.cert-slide-num{
+  font-family:var(--ft);font-size:0.6rem;letter-spacing:0.3em;
+  color:var(--red-bright);text-transform:uppercase;margin-bottom:6px;display:block;
+}
+.cert-slide-caption{
+  font-family:var(--ft);font-size:1.3rem;letter-spacing:0.12em;
+  color:var(--white);text-transform:uppercase;line-height:1.2;
+}
+.cert-slide-nav{
+  position:absolute;bottom:24px;right:28px;
+  display:flex;gap:10px;z-index:10;
+}
+.cert-nav-btn{
+  width:36px;height:36px;border:1px solid rgba(255,255,255,0.25);
+  background:rgba(0,0,0,0.4);color:var(--white);
+  display:flex;align-items:center;justify-content:center;
+  cursor:pointer;font-size:0.9rem;transition:background 0.2s,border-color 0.2s;
+  border-radius:0;
+}
+.cert-nav-btn:hover{background:var(--red);border-color:var(--red);}
+.cert-progress{
+  position:absolute;bottom:0;left:0;right:0;height:2px;
+  background:rgba(255,255,255,0.1);z-index:10;
+}
+.cert-progress-bar{
+  height:100%;background:var(--red-bright);width:0%;
+  transition:width 3.5s linear;
+}
+.cert-grid-right{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows:repeat(4, 1fr);
+  height:100%;
+}
+.cert-tile{
+  position:relative;overflow:hidden;
+  border-bottom:1px solid var(--line);border-right:1px solid var(--line);
+  background:var(--card);
+  display:flex;align-items:center;justify-content:center;
+  padding:20px;
+  transition:background 0.25s;
+}
+.cert-tile-portrait{
+  grid-row:span 2;
+  aspect-ratio:unset;
+  height:100%;
+}
+.cert-tile-landscape{
+  aspect-ratio:unset;
+  min-height:0;
+  height:auto;
+}
+.cert-tile:nth-child(even){border-right:none;}
+.cert-tile:hover{background:#1c1c1c;}
+.cert-tile img{
+  max-width:100%;max-height:100%;
+  object-fit:contain;
+  transition:transform 0.4s ease;
+  filter:brightness(0.92) contrast(1.05);
+}
+.cert-tile-portrait img{width:100%;height:100%;object-fit:contain;max-height:none;}
+.cert-tile-landscape img{max-height:120px;}
+.cert-tile:hover img{transform:scale(1.05);filter:brightness(1) contrast(1.05);}
+.cert-tile-portrait:hover img{transform:scale(1.03);}
+.cert-tile-label{
+  position:absolute;bottom:0;left:0;right:0;
+  padding:8px 12px;
+  background:linear-gradient(transparent,rgba(0,0,0,0.7));
+  font-family:var(--ft);font-size:0.58rem;letter-spacing:0.2em;
+  color:rgba(255,255,255,0.5);text-transform:uppercase;
+  opacity:0;transition:opacity 0.25s;
+}
+.cert-tile:hover .cert-tile-label{opacity:1;}
+.cert-ticker-wrap{
+  border-top:1px solid var(--line);
+  overflow:hidden;position:relative;
+  padding:0;
+}
+.cert-ticker-wrap::before,.cert-ticker-wrap::after{
+  content:'';position:absolute;top:0;bottom:0;width:80px;z-index:2;pointer-events:none;
+}
+.cert-ticker-wrap::before{left:0;background:linear-gradient(to right,var(--surface),transparent);}
+.cert-ticker-wrap::after{right:0;background:linear-gradient(to left,var(--surface),transparent);}
+.cert-ticker{
+  display:flex;gap:0;width:max-content;
+  animation:certTick 30s linear infinite;
+  padding:16px 0;
+}
+.cert-ticker:hover{animation-play-state:paused;}
+.cert-ticker-item{
+  display:flex;align-items:center;gap:16px;
+  padding:0 36px;
+  border-right:1px solid var(--line);
+  white-space:nowrap;
+}
+.cert-ticker-dot{
+  width:5px;height:5px;border-radius:50%;
+  background:var(--red-bright);flex-shrink:0;
+}
+.cert-ticker-text{
+  font-family:var(--ft);font-size:0.72rem;letter-spacing:0.25em;
+  color:var(--grey-mid);text-transform:uppercase;
+}
+@keyframes certTick{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+.cert-dots{display:flex;gap:5px;position:absolute;top:20px;left:28px;z-index:10;}
+.cert-dot{width:5px;height:5px;border-radius:50%;background:rgba(255,255,255,0.25);cursor:pointer;transition:background 0.2s,transform 0.2s;}
+.cert-dot.active{background:var(--white);transform:scale(1.3);}
+
+/* ── REVIEWS ── */
+.reviews-section{padding:50px 5%;}
+.simple-carousel{
+  display:flex !important;overflow-x:auto !important;scroll-snap-type:x mandatory !important;
+  scroll-behavior:smooth;gap:16px;padding:4px 2px 16px;
+  margin-top:20px;-webkit-overflow-scrolling:touch;
+  scrollbar-width:thin;scrollbar-color:var(--red) #222;
+}
+.simple-carousel a{
+  display:flex !important;
+  flex:0 0 340px !important;
+  text-decoration:none;
+}
+.simple-carousel::-webkit-scrollbar{height:4px;}
+.simple-carousel::-webkit-scrollbar-track{background:#222;}
+.simple-carousel::-webkit-scrollbar-thumb{background:var(--red);}
+.review-card{
+  flex:0 0 340px !important;scroll-snap-align:start;
+  background:var(--card);border-radius:6px;padding:26px;
+  border:1px solid var(--line);transition:border-color 0.2s;
+  min-width:340px;max-width:340px;
+}
+.review-card:hover{border-color:var(--red);}
+.review-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px;}
+.reviewer-name{font-family:var(--ft);font-size:1.15rem;letter-spacing:1px;color:var(--white);}
+.review-rating{font-size:0.9rem;color:#e8a020;letter-spacing:2px;}
+.review-text{font-size:0.92rem;line-height:1.8;color:var(--grey);font-style:italic;margin-bottom:16px;}
+.review-source{padding-top:12px;border-top:1px solid var(--line);}
+.google-review-link{display:inline-flex;align-items:center;gap:6px;color:var(--red-bright);font-size:0.78rem;font-weight:500;transition:opacity 0.2s;}
+.google-review-link:hover{opacity:0.8;}
+.reviews-cta{
+  text-align:center;margin-top:24px;padding:32px 20px;
+  background:var(--card);border-radius:6px;border:1px solid var(--line);
+}
+.reviews-cta p{font-size:0.97rem;color:var(--grey);margin-bottom:18px;}
+.write-review-btn{
+  display:inline-block;background:var(--red);color:var(--white);
+  padding:13px 26px;border-radius:4px;
+  font-family:var(--ft);font-size:1rem;letter-spacing:1.5px;
+  border:2px solid var(--red);transition:background 0.2s,color 0.2s;
+}
+.write-review-btn:hover{background:transparent;color:var(--red);}
+.more-reviews-btn{
+  display:inline-block;background:transparent;color:var(--red);
+  padding:11px 24px;border-radius:4px;
+  font-family:var(--ft);font-size:0.95rem;letter-spacing:1.5px;
+  border:2px solid var(--red);transition:background 0.2s,color 0.2s;
+}
+.more-reviews-btn:hover{background:var(--red);color:var(--white);}
+
+/* ── CONTACT ── */
+.contact-section{padding:50px 5%;background:var(--surface);}
+.contact-container{display:flex;max-width:1200px;margin:0 auto;gap:40px;}
+.contact-info{flex:1;min-width:0;}
+.contact-info h5{color:var(--red-bright);font-size:1.3rem;margin:0 0 10px;}
+.contact-info p{font-size:0.92rem;line-height:2;color:var(--grey);}
+.contact-info a{color:var(--grey);transition:color 0.2s;}
+.contact-info a:hover{color:var(--white);}
+.business-hours{margin-top:22px;}
+.social-links{margin-top:22px;}
+.social-links h5{color:var(--red-bright);font-size:1.3rem;margin:0 0 12px;}
+.social-links-list{display:flex;flex-direction:column;gap:12px;}
+.social-links-list a{display:flex;align-items:center;gap:10px;color:var(--grey);font-size:0.92rem;transition:color 0.2s;}
+.social-links-list a:hover{color:var(--white);}
+.map-container{flex:1;min-width:0;min-height:380px;border-radius:6px;overflow:hidden;}
+.map-container iframe{width:100%;height:100%;min-height:380px;border:0;display:block;}
+
+/* ── BLOG ── */
+.blog-section{padding:60px 5%;}
+.blog-container{max-width:1200px;margin:0 auto;}
+.blog-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(350px,1fr));gap:30px;margin-top:40px;}
+.blog-card{
+  background:var(--card);border-radius:8px;
+  border:1px solid var(--line);overflow:hidden;
+  transition:border-color 0.2s,transform 0.2s;
+}
+.blog-card:hover{border-color:var(--red);transform:translateY(-2px);}
+.blog-image{
+  width:100%;height:200px;object-fit:cover;
+  display:block;
+}
+.blog-content{padding:24px;}
+.blog-category{
+  font-family:var(--ft);font-size:0.7rem;letter-spacing:0.2em;
+  color:var(--red);text-transform:uppercase;margin-bottom:8px;display:block;
+}
+.blog-title{
+  font-family:var(--ft);font-size:1.4rem;letter-spacing:0.05em;
+  color:var(--white);margin-bottom:12px;line-height:1.2;
+}
+.blog-excerpt{
+  font-size:0.95rem;line-height:1.6;color:var(--grey);
+  margin-bottom:16px;
+}
+.blog-meta{
+  display:flex;align-items:center;justify-content:space-between;
+  font-size:0.85rem;color:var(--grey-dim);
+}
+.blog-author{display:flex;align-items:center;gap:8px;}
+.blog-author-avatar{
+  width:24px;height:24px;border-radius:50%;
+  background:var(--red);display:flex;align-items:center;justify-content:center;
+  font-size:0.7rem;font-weight:500;color:var(--white);
+}
+.blog-date{font-style:italic;}
+.blog-read-more{
+  display:inline-flex;align-items:center;gap:6px;
+  color:var(--red);font-size:0.85rem;font-weight:500;
+  text-decoration:none;transition:gap 0.2s;
+}
+.blog-read-more:hover{gap:10px;}
+.blog-cta{
+  text-align:center;margin-top:50px;padding:32px;
+  background:var(--card);border-radius:8px;border:1px solid var(--line);
+}
+.blog-cta h5{color:var(--red-bright);font-size:1.3rem;margin:0 0 12px;}
+.blog-cta p{color:var(--grey);margin-bottom:20px;}
+.blog-cta-btn{
+  display:inline-block;background:var(--red);color:var(--white);
+  padding:12px 24px;border-radius:4px;
+  font-family:var(--ft);font-size:0.95rem;letter-spacing:1.5px;
+  border:2px solid var(--red);transition:background 0.2s,color 0.2s;
+  text-decoration:none;
+}
+.blog-cta-btn:hover{background:transparent;color:var(--red);}
+
+/* ── FOOTER ── */
+footer{
+  background:var(--black);border-top:1px solid var(--line);
+  padding:22px 5%;display:flex;align-items:center;justify-content:space-between;
+  flex-wrap:wrap;gap:8px;
+}
+.footer-brand{font-family:var(--ft);font-size:1rem;letter-spacing:0.2em;color:var(--grey-dim);}
+.footer-brand span{color:var(--red);}
+.footer-copy{font-size:0.7rem;letter-spacing:0.12em;color:var(--grey-dim);}
+
+/* ── WHATSAPP ── */
+.whatsapp-button{
+  position:fixed;bottom:20px;right:20px;
+  width:54px;height:54px;background:#25D366;
+  border-radius:50%;display:flex;align-items:center;justify-content:center;
+  box-shadow:0 3px 12px rgba(0,0,0,0.35);
+  transition:transform 0.2s;z-index:999;
+}
+.whatsapp-button:hover{transform:scale(1.08);}
+.whatsapp-button svg{width:28px;height:28px;fill:white;}
+
+/* ── CHATBOT ── */
+.chatbot-container{position:fixed;bottom:88px;right:20px;z-index:1000;font-family:var(--fb);}
+.chatbot-toggle{
+  position:fixed;bottom:88px;right:20px;
+  width:76px;height:76px;background:transparent;border:none;
+  border-radius:50%;display:flex;align-items:center;justify-content:center;
+  cursor:pointer;transition:transform 0.2s;z-index:1000;
+}
+.chatbot-toggle:hover{transform:scale(1.08);}
+.chatbot-icon{width:76px;height:76px;border-radius:50%;object-fit:cover;}
+.chatbot-tooltip{
+  position:absolute;top:50%;right:100%;
+  transform:translateY(-50%);
+  background:var(--red);color:var(--white);
+  padding:6px 10px;border-radius:4px;
+  font-size:0.68rem;white-space:nowrap;
+  opacity:0;visibility:hidden;transition:opacity 0.3s,visibility 0.3s;
+  margin-right:10px;z-index:1001;
+}
+.chatbot-tooltip::after{
+  content:'';position:absolute;top:50%;right:-5px;
+  transform:translateY(-50%);
+  border:5px solid transparent;border-left-color:var(--red);
+}
+.chatbot-toggle:hover .chatbot-tooltip{opacity:1;visibility:visible;}
+.chatbot-window{
+  position:absolute;bottom:70px;right:0;
+  width:340px;height:440px;
+  background:var(--card);border:1px solid #2a2a2a;
+  border-radius:8px;box-shadow:0 10px 30px rgba(0,0,0,0.5);
+  display:none;flex-direction:column;overflow:hidden;
+}
+.chatbot-window.open{display:flex;}
+.chatbot-header{
+  display:flex;align-items:center;gap:12px;
+  padding:14px 16px;background:var(--red);color:var(--white);
+}
+.chatbot-avatar{
+  width:36px;height:36px;border-radius:50%;
+  background:rgba(255,255,255,0.2);
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--ft);font-size:0.9rem;flex-shrink:0;
+}
+.chatbot-info h5{margin:0;font-size:0.95rem;font-family:var(--ft);font-weight:400;letter-spacing:0.5px;}
+.chatbot-status{font-size:0.7rem;opacity:0.8;}
+.chatbot-close{
+  background:none;border:none;color:var(--white);
+  font-size:1.3rem;cursor:pointer;margin-left:auto;
+  width:24px;height:24px;display:flex;align-items:center;justify-content:center;
+  border-radius:50%;transition:background 0.2s;
+}
+.chatbot-close:hover{background:rgba(255,255,255,0.15);}
+.chatbot-messages{
+  flex:1;overflow-y:auto;padding:14px;
+  display:flex;flex-direction:column;gap:10px;
+  scrollbar-width:thin;scrollbar-color:var(--red) #222;
+}
+.chatbot-messages::-webkit-scrollbar{width:4px;}
+.chatbot-messages::-webkit-scrollbar-track{background:#222;}
+.chatbot-messages::-webkit-scrollbar-thumb{background:var(--red);}
+.message{max-width:88%;word-wrap:break-word;}
+.bot-message{align-self:flex-start;}
+.user-message{align-self:flex-end;}
+.message-text{
+  display:inline-block;padding:9px 13px;
+  border-radius:14px;font-size:0.85rem;line-height:1.45;
+}
+.bot-message .message-text{background:#252525;color:var(--white);border:1px solid #333;}
+.user-message .message-text{background:var(--red);color:var(--white);}
+.clickable-question{
+  cursor:pointer!important;background:#252525!important;
+  border:1px solid var(--red)!important;transition:background 0.2s!important;
+}
+.clickable-question:hover{background:var(--red)!important;}
+.service-list{display:flex;flex-direction:column;gap:6px;margin-top:6px;}
+.service-item{
+  background:#252525;border:1px solid #333;border-radius:8px;
+  padding:10px 13px;cursor:pointer;transition:background 0.2s,border-color 0.2s;
+  font-size:0.85rem;color:var(--white);
+}
+.service-item:hover{background:var(--red);border-color:var(--red);}
+.chatbot-input-container{
+  display:flex;gap:8px;padding:12px 14px;
+  border-top:1px solid #2a2a2a;background:var(--card);
+}
+.chatbot-input{
+  flex:1;background:#252525;border:1px solid #333;
+  border-radius:18px;padding:9px 14px;
+  color:var(--white);font-size:0.85rem;outline:none;
+  font-family:var(--fb);
+}
+.chatbot-input::placeholder{color:#555;}
+.chatbot-input:focus{border-color:var(--red);}
+.chatbot-input:disabled{opacity:0.4;cursor:not-allowed;}
+.chatbot-send{
+  background:var(--red);border:none;border-radius:50%;
+  width:38px;height:38px;display:flex;align-items:center;justify-content:center;
+  cursor:pointer;transition:opacity 0.2s;flex-shrink:0;
+}
+.chatbot-send:hover:not(:disabled){opacity:0.85;}
+.chatbot-send:disabled{opacity:0.4;cursor:not-allowed;}
+.typing-indicator{display:none;align-items:center;gap:4px;padding:9px 13px;}
+.typing-indicator.show{display:flex;}
+.typing-dot{
+  width:6px;height:6px;border-radius:50%;
+  background:var(--grey);animation:typing 1.4s infinite ease-in-out;
+}
+.typing-dot:nth-child(1){animation-delay:-0.32s;}
+.typing-dot:nth-child(2){animation-delay:-0.16s;}
+@keyframes typing{0%,80%,100%{transform:scale(0.8);opacity:0.5;}40%{transform:scale(1);opacity:1;}}
+
+/* ── REVEAL ── */
+.reveal{opacity:0;transform:translateY(24px);transition:opacity 0.7s ease,transform 0.7s ease;}
+.reveal.visible{opacity:1;transform:none;}
+
+/* ════════════════════════════════
+   RESPONSIVE — PURE CSS (no JS)
+════════════════════════════════ */
+
+@media(max-width:900px){
+  .mainnav{display:none;}
+  .hamburger{display:flex;}
+  .mobile-nav{display:flex;}
+
+  /* about */
+  .about-content{flex-direction:column;gap:24px;}
+  .about-content p{text-align:left;}
+  .about-content img{width:100%;order:-1;}
+  
+  /* contact */
+  .contact-container{flex-direction:column;}
+  .map-container{min-height:300px;}
+  .map-container iframe{min-height:300px;}
+
+  /* blog */
+  .blog-section{padding:40px 4%;}
+  .blog-grid{grid-template-columns:1fr;gap:24px;margin-top:30px;}
+  .blog-content{padding:20px;}
+  .blog-title{font-size:1.2rem;}
+  .blog-cta{margin-top:40px;padding:24px;}
+
+  /* certs */
+  .cert-body{grid-template-columns:1fr;}
+  .cert-featured{border-right:none;border-bottom:1px solid var(--line);aspect-ratio:4/3;}
+  .cert-grid-right{grid-template-columns:1fr 1fr 1fr;}
+  .cert-tile{aspect-ratio:1/1;}
+  .cert-tile:nth-child(even){border-right:1px solid var(--line);}
+  .cert-tile:nth-child(3n){border-right:none;}
+}
+
+@media(max-width:640px){
+  /* hero */
+  .main{height:100svh;min-height:100svh;}
+  .hero-overlay{
+    position:absolute;
+    bottom:auto;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    z-index:10;
+    pointer-events:none;
+    padding:0 8%;
+    width:100%;
+    text-align:center;
+  }
+  .hero-line{
+    font-size:clamp(5rem,12vw,8rem);
+    letter-spacing:0.08em;
+    line-height:1.0;
+    text-align:center;
+    width:100%;
+  }
+  .hero-divider{
+    margin:10px auto;
+  }
+
+  /* nav */
+  .headermain{padding:12px 4%;}
+  .logomain{height:32px;}
+
+  /* services */
+  .services-heading{margin:36px 0 16px;font-size:1.8rem;}
+  .services{flex-direction:column;gap:0;padding:0 4% 40px;}
+  .services-provided{width:100%;order:2;}
+  .services-provided div{font-size:1.05rem;padding:12px 14px;border-left-width:2px;}
+  .swipe-container{display:block !important;position:relative;width:100%;max-width:100%;height:260px;order:1;margin-bottom:16px;visibility:visible;opacity:1;flex:none !important;border:2px solid var(--red);background:var(--card);border-radius:4px;overflow:hidden;cursor:ew-resize;user-select:none;touch-action:none;}
+  .swipe-container .img-left,.swipe-container .img-right{display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none;}
+  .swipe-container .img-left{z-index:1;}
+  .swipe-container .img-right{z-index:2;clip-path:inset(0 0 0 50%);}
+  .swipe-container .divider-line{position:absolute;top:0;bottom:0;left:50%;width:2px;background:var(--red);transform:translateX(-50%);z-index:10;pointer-events:none;}
+  .swipe-container .divider-handle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:40px;height:40px;border-radius:50%;background:var(--red);z-index:11;pointer-events:none;display:flex;align-items:center;justify-content:center;}
+
+  /* brands */
+  .brands-section{padding:36px 4%;}
+  .brand-card{flex:0 0 130px;width:130px;min-height:85px;}
+
+  /* about */
+  .about{padding:40px 4%;}
+  .about-content p{font-size:0.95rem;}
+
+  /* ── WHY SECTION MOBILE — pure CSS ── */
+  .why-section{padding:44px 4%;}
+  .why-row{
+    grid-template-columns:1fr;
+    grid-template-rows:auto;
+    gap:16px 0;
+    padding:30px 0;
+  }
+  .why-index{
+    font-size:2.2rem;
+    color:#3a3a3a;
+    line-height:1;
+    padding-top:0;
+  }
+  /* On mobile: index + left sit side-by-side via subgrid workaround */
+  /* Stack: index on same row as why-left using a wrapper approach */
+  .why-row{display:flex;flex-direction:column;gap:0;}
+  .why-row-top{display:flex;align-items:flex-start;gap:16px;margin-bottom:16px;}
+  .why-headline{font-size:1.75rem;line-height:1.05;}
+  .why-stat{font-size:2.5rem;margin-top:6px;}
+  .why-right{padding-left:0;padding-top:0;}
+  .why-body{font-size:0.97rem;line-height:1.85;margin-bottom:14px;}
+  .why-chip{font-size:0.58rem;padding:4px 11px;}
+
+  /* certs */
+  .cert-main-title{font-size:1.8rem;padding:10px 4% 24px;}
+  .cert-eyebrow{padding:28px 4% 0;}
+  .cert-featured{aspect-ratio:3/4;}
+  .cert-grid-right{grid-template-columns:1fr 1fr;}
+  .cert-tile:nth-child(3n){border-right:1px solid var(--line);}
+  .cert-tile:nth-child(even){border-right:none;}
+  .cert-tile-portrait{aspect-ratio:auto !important; height:auto !important; min-height:200px;}
+  .cert-slide-caption{font-size:1.1rem;}
+
+  /* reviews */
+  .reviews-section{padding:40px 4%;}
+  .simple-carousel{display:flex !important;overflow-x:auto !important;scroll-snap-type:x mandatory !important;}
+  .simple-carousel a{display:flex !important;flex:0 0 300px !important;text-decoration:none;}
+  .review-card{flex:0 0 300px !important;padding:20px;min-width:300px;max-width:300px;}
+  .reviews-cta{padding:22px 16px;}
+  .write-review-btn,.more-reviews-btn{padding:11px 20px;font-size:0.88rem;}
+
+  /* contact */
+  .contact-section{padding:40px 4%;}
+  .contact-info p,.contact-info a{font-size:0.88rem;}
+
+  /* whatsapp & chatbot */
+  .whatsapp-button{width:50px;height:50px;bottom:14px;right:14px;}
+  .chatbot-toggle{width:68px;height:68px;bottom:74px;right:14px;}
+  .chatbot-icon{width:68px;height:68px;}
+  .chatbot-window{
+    width:calc(100vw - 20px);
+    height:400px;
+    bottom:60px;right:0;
+    border-radius:10px 10px 0 0;
+  }
+
+  /* footer */
+  footer{flex-direction:column;text-align:center;padding:18px 4%;}
+}
+
+@media(max-width:640px) and (orientation: portrait){
+  .swipe-container{display:block !important;position:relative;width:100%;max-width:100%;height:300px;order:1;margin-bottom:16px;visibility:visible;opacity:1;flex:none !important;border:2px solid var(--red);background:var(--card);border-radius:4px;overflow:hidden;cursor:ew-resize;user-select:none;touch-action:none;}
+  .swipe-container .img-left,.swipe-container .img-right{display:block !important;position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none;}
+  .swipe-container .img-left{z-index:1;}
+  .swipe-container .img-right{z-index:2;clip-path:inset(0 0 0 50%);}
+  .swipe-container .divider-line{position:absolute;top:0;bottom:0;left:50%;width:2px;background:var(--red);transform:translateX(-50%);z-index:10;pointer-events:none;}
+  .swipe-container .divider-handle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:40px;height:40px;border-radius:50%;background:var(--red);z-index:11;pointer-events:none;display:flex;align-items:center;justify-content:center;}
+}
+
+@media(max-width:380px){
+  .hero-overlay{padding:0 5%;}
+  .hero-line{font-size:clamp(4.5rem,14vw,7rem);letter-spacing:0.06em;line-height:0.95;}
+  .why-index{font-size:2rem;min-width:40px;}
+  .why-headline{font-size:1.55rem;}
+  .why-stat{font-size:2.1rem;}
+  .why-body{font-size:0.92rem;}
+  .mainnav a{font-size:0.8rem;padding:6px 10px;}
+}
+
+/* Desktop why-row: restore 3-col grid above 640px */
+@media(min-width:641px){
+  .why-row{
+    display:grid !important;
+    grid-template-columns:72px 1fr 1fr;
+    gap:0 48px;
+    flex-direction:unset;
+  }
+  .why-row-top{display:contents !important;}
+}
+
+/* Override: cert-body is now a 2-col grid */
+.cert-body{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  max-width:1400px;margin:0 auto;
+}
+
+/* RIGHT PANEL — certification list */
+.cert-list-panel{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  padding:36px 40px;
+  background:var(--card);
+}
+.cert-list-label{
+  font-family:var(--ft);font-size:0.6rem;letter-spacing:0.35em;
+  color:var(--red);text-transform:uppercase;
+  margin-bottom:22px;display:block;
+}
+.cert-list-item{
+  display:grid;grid-template-columns:36px 1fr;gap:0 14px;
+  align-items:start;
+  padding:14px 0;
+  border-bottom:1px solid var(--line);
+}
+.cert-list-num{
+  font-family:var(--ft);font-size:1.8rem;
+  color:#2a2a2a;line-height:1;padding-top:2px;
+}
+.cert-list-issuer{
+  font-family:var(--ft);font-size:0.65rem;letter-spacing:0.28em;
+  color:var(--red);text-transform:uppercase;
+  margin-bottom:4px;display:block;
+}
+.cert-list-name{
+  font-size:0.88rem;color:var(--grey);
+  line-height:1.5;font-weight:500;
+}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+  .cert-body{grid-template-columns:1fr;}
+  .cert-featured{border-right:none;border-bottom:1px solid var(--line);aspect-ratio:4/3;}
+  .cert-list-panel{padding:28px 24px;}
+}
+@media(max-width:640px){
+  .cert-list-panel{padding:22px 16px;}
+  .cert-list-num{font-size:1.4rem;}
+  .cert-list-name{font-size:0.83rem;}
+}
+
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoRepair",
+  "name": "Top Secret Detailing Studio",
+  "image": "https://www.topsecretdetailingblr.in/images/topSecretTeamBanglore.jpeg",
+  "url": "https://www.topsecretdetailingblr.in",
+  "telephone": "+919632045724",
+  "email": "topsecretblr@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "197, Behind Prajwal School, Balaji Layout, Byadarahalli, Magadi Main Road",
+    "addressLocality": "Bangalore",
+    "addressRegion": "Karnataka",
+    "postalCode": "560091",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 12.985004,
+    "longitude": 77.4790404
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+    "opens": "10:00",
+    "closes": "20:00"
+  },
+  "priceRange": "₹₹",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "50"
+  },
+  "sameAs": [
+    "https://www.instagram.com/topsecretdetailing_blr",
+    "https://www.youtube.com/@TopSecretDetailingstudio"
+  ]
+}
+</script>
+
+</head>
+<body>
+
+<!-- NAV -->
+<div class="headermain" id="headerMain">
+  <img class="logomain" src="images/ts/TopSecretBanglore_Logo.png" alt="Top Secret Detailing Studio Logo">
+  <nav>
+    <ul class="mainnav">
+      <li><a href="#main">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#brands">Brands</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <button class="hamburger" id="hamburger" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</div>
+
+<nav class="mobile-nav" id="mobileNav">
+  <a href="#main"     class="mobile-link">Home</a>
+  <a href="#services" class="mobile-link">Services</a>
+  <a href="#brands"   class="mobile-link">Brands</a>
+  <a href="#about"    class="mobile-link">About Us</a>
+  <a href="#blog"     class="mobile-link">Blog</a>
+  <a href="#contact"  class="mobile-link">Contact</a>
+</nav>
+
+<!-- HERO -->
+<div id="main" class="main">
+  <video class="hero-video" id="heroBg" autoplay muted loop playsinline>
+    <source src="images/bg.mp4" type="video/mp4">
+  </video>
+  <div class="hero-overlay">
+  <h1 class="hero-line" style="font-size:inherit;font-family:inherit;font-weight:inherit;margin:0;">
+  </h1>
+  <div class="hero-line"><span>Precision</span></div>
+  <div class="hero-line"><span>Protection</span></div>
+  <div class="hero-line"><span>Perfection</span></div>
+  <div class="hero-divider"></div>
+  <!-- Hidden H1 for Google — visible text above already says it visually -->
+  <h1 style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);">
+    Premium Car Detailing Studio in Bangalore — Ceramic Coating, PPF & Paint Correction
+  </h1>
+</div>
+</div>
+
+<!-- SERVICES -->
+<h2 class="services-heading reveal">Our Services</h2>
+<div id="services" class="services">
+  <div class="services-provided">
+    <div onclick="window.location.href='service-interior-detailing.html'">Interior Detailing</div>
+    <div onclick="window.location.href='service-exterior-detailing.html'">Exterior Detailing</div>
+    <div onclick="window.location.href='service-ceramic-coating.html'">Ceramic Coating</div>
+    <div onclick="window.location.href='service-ppf.html'">Paint Protection Film</div>
+    <div onclick="window.location.href='service-paint-correction.html'">Paint Correction</div>
+    <div onclick="window.location.href='service-sun-film.html'">Sun Film</div>
+  </div>
+  <div class="swipe-container" id="swipeContainer">
+    <img class="img-left"  id="imgLeft"  src="images/ba/redCarBefore.jpeg" alt="Car before detailing at Top Secret Detailing Studio Bangalore">
+    <img class="img-right" id="imgRight" src="images/ba/redCarAfter.jpeg"  alt="Car after ceramic coating at Top Secret Detailing Studio Bangalore">
+    <div class="divider-line"   id="dividerLine"></div>
+    <div class="divider-handle" id="dividerHandle">
+      <svg viewBox="0 0 24 24"><path d="M8 5l-7 7 7 7M16 5l7 7-7 7" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+    </div>
+    </a>
+  </div>
+</div>
+
+<!-- BRANDS -->
+<div id="brands" class="brands-section">
+  <h2 class="reveal">Brands We Use</h2>
+  <div class="marquee-wrapper" id="marqueeWrapper">
+    <div class="marquee-track" id="marqueeTrack">
+      <div class="brand-card"><a href="https://evofilms.in/" target="_blank"><img src="images/brands/brandEvoFlims.jpeg" alt="Evo Films" class="brand-logo"></a></div>
+      <div class="brand-card"><a href="https://the-ida.com/" target="_blank"><img src="images/brands/brandIDA.jpeg" alt="IDA" class="brand-logo"></a></div>
+      <div class="brand-card"><a href="https://www.rupes.com/" target="_blank"><img src="images/brands/brandRupes.png" alt="Rupes" class="brand-logo"></a></div>
+      <div class="brand-card"><a href="https://artdeshine.co/" target="_blank"><img src="images/brands/brandArtDeShine.jpeg" alt="Artdeshine" class="brand-logo"></a></div>
+      <div class="brand-card"><a href="https://www.averydennison.com/" target="_blank"><img src="images/brands/brandAveryDennison.png" alt="Avery Dennison" class="brand-logo"></a></div>
+      <div class="brand-card"><a href="https://carpro.global/" target="_blank"><img src="images/brands/brandCarpro.png" alt="CarPro" class="brand-logo"></a></div>
+      <div class="brand-card"><a href="https://diamondprotech.com/" target="_blank"><img src="images/brands/brandDiamondprotech.png" alt="Diamondprotech" class="brand-logo"></a></div>
+      <div class="brand-card"><a href="https://koch-chemie.com/" target="_blank"><img src="images/brands/brandKochChemie.jpeg" alt="KochChemie" class="brand-logo"></a></div>
+      <!-- duplicate set for seamless loop -->
+      <div class="brand-card"><a href="https://evofilms.in/" target="_blank"><img src="images/brands/brandEvoFlims.jpeg" alt="Evo Films" class="brand-logo"></a></div>
+      <div class="brand-card"><a href="https://the-ida.com/" target="_blank"><img src="images/brands/brandIDA.jpeg" alt="IDA" class="brand-logo"></a></div>
+      <div class="brand-card"><a href="https://www.rupes.com/" target="_blank"><img src="images/brands/brandRupes.png" alt="Rupes" class="brand-logo"></a></div>
+      <div class="brand-card"><a href="https://artdeshine.co/" target="_blank"><img src="images/brands/brandArtDeShine.jpeg" alt="Artdeshine" class="brand-logo"></a></div>
+      <div class="brand-card"><a href="https://www.averydennison.com/" target="_blank"><img src="images/brands/brandAveryDennison.png" alt="Avery Dennison" class="brand-logo"></a></div>
+      <div class="brand-card"><a href="https://carpro.global/" target="_blank"><img src="images/brands/brandCarpro.png" alt="CarPro" class="brand-logo"></a></div>
+      <div class="brand-card"><a href="https://diamondprotech.com/" target="_blank"><img src="images/brands/brandDiamondprotech.png" alt="Diamondprotech" class="brand-logo"></a></div>
+      <div class="brand-card"><a href="https://koch-chemie.com/" target="_blank"><img src="images/brands/brandKochChemie.jpeg" alt="KochChemie" class="brand-logo"></a></div>
+    </div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<div id="about" class="about">
+  <h2 class="reveal">Who Are We</h2>
+  <div class="about-content">
+  <p>Top Secret Detailing Studio is Bangalore's premium car detailing studio, founded in 2024 with a mission to redefine automotive care. Located in Magadi Main Road, Bangalore, we specialise in ceramic coating, Paint Protection Film (PPF), paint correction, window tinting, and full interior and exterior detailing. We believe every vehicle deserves expert attention — our goal is to deliver unmatched detailing services that enhance your car's appearance and preserve its value for years to come. We use only the finest products from brands like Rupes, CarPro, Artdeshine, and Avery Dennison. At Top Secret Detailing Studio, your car is more than just a vehicle — it's a work of art, and we treat it as such.</p>    
+  <img src="images/topSecretTeamBanglore.jpeg" alt="Top Secret Detailing Studio team applying ceramic coating in Bangalore">  
+  </div>
+</div>
+
+<!-- WHY CHOOSE US -->
+<div id="why" class="why-section">
+  <h2 class="reveal">Why Choose TopSecret</h2>
+
+  <div class="why-row">
+    <div class="why-row-top">
+      <div class="why-index">01</div>
+      <div class="why-left">
+        <span class="why-kicker">Track Record</span>
+        <div class="why-headline">Cars<br>Detailed</div>
+        <span class="why-stat">200+</span>
+      </div>
+    </a>
+    </div>
+    </a>
+    <div class="why-right">
+      <p class="why-body">From daily hatchbacks to weekend supercars — every vehicle gets the same obsessive standard of work. No tiers, no shortcuts.</p>
+      <div class="why-chips">
+        <span class="why-chip">PPF</span>
+        <span class="why-chip">Ceramic</span>
+        <span class="why-chip">Correction</span>
+        <span class="why-chip">Tint</span>
+      </div>
+    </a>
+    </div>
+    </a>
+  </div>
+
+  <div class="why-row">
+    <div class="why-row-top">
+      <div class="why-index">02</div>
+      <div class="why-left">
+        <span class="why-kicker">Reputation</span>
+        <div class="why-headline">Google<br>Rated</div>
+        <span class="why-stat">5 ★</span>
+      </div>
+    </a>
+    </div>
+    </a>
+    <div class="why-right">
+      <p class="why-body">Every review earned, never asked for. Consistent five-star feedback reflects our commitment to doing the job right, every time.</p>
+      <div class="why-chips">
+        <span class="why-chip">Verified</span>
+        <span class="why-chip">Google Reviews</span>
+      </div>
+    </a>
+    </div>
+    </a>
+  </div>
+
+  <div class="why-row">
+    <div class="why-row-top">
+      <div class="why-index">03</div>
+      <div class="why-left">
+        <span class="why-kicker">Products</span>
+        <div class="why-headline">Premium<br>Only</div>
+      </div>
+    </a>
+    </div>
+    </a>
+    <div class="why-right">
+      <p class="why-body">We use Rupes, CarPro, Artdeshine, and Evo Films — the same products trusted by detailers worldwide. Nothing generic touches your car.</p>
+      <div class="why-chips">
+        <span class="why-chip">Rupes</span>
+        <span class="why-chip">CarPro</span>
+        <span class="why-chip">Evo Films</span>
+      </div>
+    </a>
+    </div>
+    </a>
+  </div>
+
+  <div class="why-row">
+    <div class="why-row-top">
+      <div class="why-index">04</div>
+      <div class="why-left">
+        <span class="why-kicker">Integrity</span>
+        <div class="why-headline">No<br>Upsell</div>
+      </div>
+    </a>
+    </div>
+    </a>
+    <div class="why-right">
+      <p class="why-body">We tell you what your car needs, not what makes us the most money. Honest advice, transparent pricing, no pressure.</p>
+      <div class="why-chips">
+        <span class="why-chip">Honest</span>
+        <span class="why-chip">Transparent</span>
+      </div>
+    </a>
+    </div>
+    </a>
+  </div>
+</div>
+
+<!-- CERTIFICATIONS -->
+<div id="certifications" class="cert-section">
+
+  <div class="cert-eyebrow">
+    <span class="cert-eyebrow-label">Credentials &amp; Recognition</span>
+  </div>
+  <div class="cert-main-title">Certifications &amp; Craft</div>
+
+  <div class="cert-body">
+
+    <!-- LEFT: Slideshow -->
+    <div class="cert-featured" id="certSlideshow">
+      <div class="cert-slide active"><img src="images/certifications/s13.jpeg" alt="Certified Detailing Professional"><div class="cert-slide-overlay"></div><div class="cert-slide-meta"><span class="cert-slide-num">01 / 13</span><div class="cert-slide-caption">Certified Detailing Professional</div></div></div>
+      <div class="cert-slide"><img src="images/certifications/ss4.jpeg" alt="Precision at Work"><div class="cert-slide-overlay"></div><div class="cert-slide-meta"><span class="cert-slide-num">02 / 13</span><div class="cert-slide-caption">Precision at Work</div></div></div>
+      <div class="cert-slide"><img src="images/certifications/ss2.jpeg" alt="Training and Excellence"><div class="cert-slide-overlay"></div><div class="cert-slide-meta"><span class="cert-slide-num">03 / 13</span><div class="cert-slide-caption">Training &amp; Excellence</div></div></div>
+      <div class="cert-slide"><img src="images/certifications/ss1.jpeg" alt="Craft and Dedication"><div class="cert-slide-overlay"></div><div class="cert-slide-meta"><span class="cert-slide-num">04 / 13</span><div class="cert-slide-caption">Craft &amp; Dedication</div></div></div>
+      <div class="cert-slide"><img src="images/certifications/ss5.jpeg" alt="Certified Achievement"><div class="cert-slide-overlay"></div><div class="cert-slide-meta"><span class="cert-slide-num">05 / 13</span><div class="cert-slide-caption">Certified Achievement</div></div></div>
+      <div class="cert-slide"><img src="images/certifications/ss6.jpeg" alt="Industry Recognition"><div class="cert-slide-overlay"></div><div class="cert-slide-meta"><span class="cert-slide-num">06 / 13</span><div class="cert-slide-caption">Industry Recognition</div></div></div>
+      <div class="cert-slide"><img src="images/certifications/ss7.jpeg" alt="Expert Detailing"><div class="cert-slide-overlay"></div><div class="cert-slide-meta"><span class="cert-slide-num">07 / 13</span><div class="cert-slide-caption">Expert Detailing</div></div></div>
+      <div class="cert-slide"><img src="images/certifications/ss8.jpeg" alt="The Art of Detailing"><div class="cert-slide-overlay"></div><div class="cert-slide-meta"><span class="cert-slide-num">08 / 13</span><div class="cert-slide-caption">The Art of Detailing</div></div></div>
+      <div class="cert-slide"><img src="images/certifications/ss9.jpeg" alt="Passion for Perfection"><div class="cert-slide-overlay"></div><div class="cert-slide-meta"><span class="cert-slide-num">09 / 13</span><div class="cert-slide-caption">Passion for Perfection</div></div></div>
+      <div class="cert-slide"><img src="images/certifications/ss10.jpeg" alt="Hands-On Expertise"><div class="cert-slide-overlay"></div><div class="cert-slide-meta"><span class="cert-slide-num">10 / 13</span><div class="cert-slide-caption">Hands-On Expertise</div></div></div>
+      <div class="cert-slide"><img src="images/certifications/ss11.jpeg" alt="Premium Craftsmanship"><div class="cert-slide-overlay"></div><div class="cert-slide-meta"><span class="cert-slide-num">11 / 13</span><div class="cert-slide-caption">Premium Craftsmanship</div></div></div>
+      <div class="cert-slide"><img src="images/certifications/s12.jpeg" alt="Studio Excellence"><div class="cert-slide-overlay"></div><div class="cert-slide-meta"><span class="cert-slide-num">12 / 13</span><div class="cert-slide-caption">Studio Excellence</div></div></div>
+      <div class="cert-slide"><img src="images/certifications/s14.jpeg" alt="Detail Obsessed"><div class="cert-slide-overlay"></div><div class="cert-slide-meta"><span class="cert-slide-num">13 / 13</span><div class="cert-slide-caption">Detail-Obsessed</div></div></div>
+
+      <div class="cert-dots" id="certDots"></div>
+      <div class="cert-slide-nav">
+        <button class="cert-nav-btn" id="certPrev" aria-label="Previous slide">&#8592;</button>
+        <button class="cert-nav-btn" id="certNext" aria-label="Next slide">&#8594;</button>
+      </div>
+      <div class="cert-progress"><div class="cert-progress-bar" id="certBar"></div></div>
+    </div>
+
+    <!-- RIGHT: Certification List -->
+    <div class="cert-list-panel">
+      <span class="cert-list-label">Official Certifications</span>
+
+      <div class="cert-list-item">
+        <div class="cert-list-num">01</div>
+        <div class="cert-list-body">
+          <span class="cert-list-issuer">Artdeshine</span>
+          <div class="cert-list-name">Professional Paint Coating Installer</div>
+        </div>
+      </div>
+
+      <div class="cert-list-item">
+        <div class="cert-list-num">02</div>
+        <div class="cert-list-body">
+          <span class="cert-list-issuer">Avery Dennison</span>
+          <div class="cert-list-name">PPF Installation Training Program</div>
+        </div>
+      </div>
+
+      <div class="cert-list-item">
+        <div class="cert-list-num">03</div>
+        <div class="cert-list-body">
+          <span class="cert-list-issuer">Avery Dennison</span>
+          <div class="cert-list-name">Professional PPF Installer — Certified</div>
+        </div>
+      </div>
+
+      <div class="cert-list-item">
+        <div class="cert-list-num">04</div>
+        <div class="cert-list-body">
+          <span class="cert-list-issuer">Detailing Academy</span>
+          <div class="cert-list-name">PPF &amp; Wrapping Installation Course</div>
+        </div>
+      </div>
+
+      <div class="cert-list-item">
+        <div class="cert-list-num">05</div>
+        <div class="cert-list-body">
+          <span class="cert-list-issuer">IDA — International Detailing Association</span>
+          <div class="cert-list-name">Certified Detailer &amp; Skills Validated</div>
+        </div>
+      </div>
+
+      <div class="cert-list-item">
+        <div class="cert-list-num">06</div>
+        <div class="cert-list-body">
+          <span class="cert-list-issuer">IDA — International Detailing Association</span>
+          <div class="cert-list-name">IDA Active Member</div>
+        </div>
+      </div>
+
+      <div class="cert-list-item" style="border-bottom:none;">
+        <div class="cert-list-num">07</div>
+        <div class="cert-list-body">
+          <span class="cert-list-issuer">RUPES</span>
+          <div class="cert-list-name">Paint Correction Specialist</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- TICKER -->
+  <div class="cert-ticker-wrap">
+    <div class="cert-ticker">
+      <div class="cert-ticker-item"><div class="cert-ticker-dot"></div><span class="cert-ticker-text">Avery Dennison Certified Installer</span></div>
+      <div class="cert-ticker-item"><div class="cert-ticker-dot"></div><span class="cert-ticker-text">IDA Certified Detailer</span></div>
+      <div class="cert-ticker-item"><div class="cert-ticker-dot"></div><span class="cert-ticker-text">Rupes Paint Correction Specialist</span></div>
+      <div class="cert-ticker-item"><div class="cert-ticker-dot"></div><span class="cert-ticker-text">Artdeshine Authorised Installer</span></div>
+      <div class="cert-ticker-item"><div class="cert-ticker-dot"></div><span class="cert-ticker-text">Detailing Academy Graduate</span></div>
+      <div class="cert-ticker-item"><div class="cert-ticker-dot"></div><span class="cert-ticker-text">5-Star Google Rated</span></div>
+      <div class="cert-ticker-item"><div class="cert-ticker-dot"></div><span class="cert-ticker-text">200+ Vehicles Detailed</span></div>
+      <div class="cert-ticker-item"><div class="cert-ticker-dot"></div><span class="cert-ticker-text">Avery Dennison Certified Installer</span></div>
+      <div class="cert-ticker-item"><div class="cert-ticker-dot"></div><span class="cert-ticker-text">IDA Certified Detailer</span></div>
+      <div class="cert-ticker-item"><div class="cert-ticker-dot"></div><span class="cert-ticker-text">Rupes Paint Correction Specialist</span></div>
+      <div class="cert-ticker-item"><div class="cert-ticker-dot"></div><span class="cert-ticker-text">Artdeshine Authorised Installer</span></div>
+      <div class="cert-ticker-item"><div class="cert-ticker-dot"></div><span class="cert-ticker-text">Detailing Academy Graduate</span></div>
+      <div class="cert-ticker-item"><div class="cert-ticker-dot"></div><span class="cert-ticker-text">5-Star Google Rated</span></div>
+      <div class="cert-ticker-item"><div class="cert-ticker-dot"></div><span class="cert-ticker-text">200+ Vehicles Detailed</span></div>
+    </div>
+  </div>
+
+</div>
+
+<!-- REVIEWS -->
+<div id="reviews" class="reviews-section">
+  <h2 class="reveal">What Our Customers Say</h2>
+
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:20px;">
+    <svg width="22" height="22" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+    <span style="font-size:1.1rem;font-weight:500;color:var(--white);">Reviews</span>
+    <span style="margin-left:auto;display:flex;align-items:center;gap:8px;">
+      <span style="font-size:1.3rem;font-weight:500;color:var(--white);">5.0</span>
+      <span style="color:#f5a623;font-size:1rem;letter-spacing:2px;">★★★★★</span>
+      <span style="font-size:0.82rem;color:var(--grey-mid);">· Google</span>
+    </span>
+  </div>
+
+  <div class="simple-carousel">
+
+    <a href="https://www.google.com/maps/place/Top+Secret+Detailing+Studio/-/Car+Detailing,+PPF+%26+ceramic+coating/@12.985004,77.4764655,17z/data=!4m8!3m7!1s0x285855554202e949:0x7c7af74cb900434e!8m2!3d12.985004!4d77.4790404!9m1!1b1!16s%2Fg%2F11y5_5nx9p?entry=ttu" target="_blank" rel="noopener noreferrer" style="text-decoration:none;flex:0 0 340px;scroll-snap-align:start;display:block;">
+      <div class="review-card" style="height:100%;flex:unset;min-width:unset;max-width:unset;">
+        <div class="review-header">
+          <div style="display:flex;align-items:center;gap:10px;">
+            <div style="width:36px;height:36px;border-radius:50%;background:#e8f0fe;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:500;color:#1a73e8;flex-shrink:0;">PN</div>
+            <div><div class="reviewer-name">Phanikrishna N M</div><div style="font-size:0.75rem;color:var(--grey-mid);">Local Guide · 3 months ago</div></div>
+          </div>
+          <div class="review-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        </div>
+        <div class="review-text">"Got paint correction done on my 22-year-old Bullet 350 in its original factory paint. The transformation was unbelievable — the bike looks brand new. Jerold is a true professional."</div>
+        <div class="review-source">
+          <span style="font-size:0.75rem;color:var(--grey-dim);display:flex;align-items:center;gap:5px;">
+            <svg width="13" height="13" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c(.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+            Posted on Google
+          </span>
+        </div>
+      </div>
+    </a>
+
+    <a href="https://www.google.com/maps/place/Top+Secret+Detailing+Studio/-/Car+Detailing,+PPF+%26+ceramic+coating/@12.985004,77.4764655,17z/data=!4m8!3m7!1s0x285855554202e949:0x7c7af74cb900434e!8m2!3d12.985004!4d77.4790404!9m1!1b1!16s%2Fg%2F11y5_5nx9p?entry=ttu" target="_blank" rel="noopener noreferrer" style="text-decoration:none;flex:0 0 340px;scroll-snap-align:start;display:block;">
+      <div class="review-card" style="height:100%;flex:unset;min-width:unset;max-width:unset;">
+        <div class="review-header">
+          <div style="display:flex;align-items:center;gap:10px;">
+            <div style="width:36px;height:36px;border-radius:50%;background:#fce8e6;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:500;color:#d93025;flex-shrink:0;">KJ</div>
+            <div><div class="reviewer-name">Kashi Jois</div><div style="font-size:0.75rem;color:var(--grey-mid);">2 months ago</div></div>
+          </div>
+          <div class="review-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        </div>
+        <div class="review-text">"Jerold is truly a gem. His work is driven by passion — he delivers nothing less than 100%. He only suggests improvements when genuinely needed, never with a motive to upsell."</div>
+        <div class="review-source">
+          <span style="font-size:0.75rem;color:var(--grey-dim);display:flex;align-items:center;gap:5px;">
+            <svg width="13" height="13" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c(.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+            Posted on Google
+          </span>
+        </div>
+      </div>
+    </a>
+
+    <a href="https://www.google.com/maps/place/Top+Secret+Detailing+Studio/-/Car+Detailing,+PPF+%26+ceramic+coating/@12.985004,77.4764655,17z/data=!4m8!3m7!1s0x285855554202e949:0x7c7af74cb900434e!8m2!3d12.985004!4d77.4790404!9m1!1b1!16s%2Fg%2F11y5_5nx9p?entry=ttu" target="_blank" rel="noopener noreferrer" style="text-decoration:none;flex:0 0 340px;scroll-snap-align:start;display:block;">
+      <div class="review-card" style="height:100%;flex:unset;min-width:unset;max-width:unset;">
+        <div class="review-header">
+          <div style="display:flex;align-items:center;gap:10px;">
+            <div style="width:36px;height:36px;border-radius:50%;background:#e6f4ea;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:500;color:#137333;flex-shrink:0;">GP</div>
+            <div><div class="reviewer-name">Gagan Prakash</div><div style="font-size:0.75rem;color:var(--grey-mid);">1 month ago</div></div>
+          </div>
+          <div class="review-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        </div>
+        <div class="review-text">"I had Jerold apply a graphene coating — the results were outstanding. My car looks brand new with a glossy finish, enhanced colour depth, and impressive hydrophobic properties."</div>
+        <div class="review-source">
+          <span style="font-size:0.75rem;color:var(--grey-dim);display:flex;align-items:center;gap:5px;">
+            <svg width="13" height="13" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c(.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+            Posted on Google
+          </span>
+        </div>
+      </div>
+    </a>
+
+    <a href="https://www.google.com/maps/place/Top+Secret+Detailing+Studio/-/Car+Detailing,+PPF+%26+ceramic+coating/@12.985004,77.4764655,17z/data=!4m8!3m7!1s0x285855554202e949:0x7c7af74cb900434e!8m2!3d12.985004!4d77.4790404!9m1!1b1!16s%2Fg%2F11y5_5nx9p?entry=ttu" target="_blank" rel="noopener noreferrer" style="text-decoration:none;flex:0 0 340px;scroll-snap-align:start;display:block;">
+      <div class="review-card" style="height:100%;flex:unset;min-width:unset;max-width:unset;">
+        <div class="review-header">
+          <div style="display:flex;align-items:center;gap:10px;">
+            <div style="width:36px;height:36px;border-radius:50%;background:#fef7e0;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:500;color:#b06000;flex-shrink:0;">MS</div>
+            <div><div class="reviewer-name">Manju Shree</div><div style="font-size:0.75rem;color:var(--grey-mid);">2 weeks ago</div></div>
+          </div>
+          <div class="review-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        </div>
+        <div class="review-text">"My vehicle has never felt this clean. Quality of products and final finish are absolutely top-notch. Exceptional service at a very reasonable price."</div>
+        <div class="review-source">
+          <span style="font-size:0.75rem;color:var(--grey-dim);display:flex;align-items:center;gap:5px;">
+            <svg width="13" height="13" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c(.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+            Posted on Google
+          </span>
+        </div>
+      </div>
+    </a>
+
+    <a href="https://www.google.com/maps/place/Top+Secret+Detailing+Studio/-/Car+Detailing,+PPF+%26+ceramic+coating/@12.985004,77.4764655,17z/data=!4m8!3m7!1s0x285855554202e949:0x7c7af74cb900434e!8m2!3d12.985004!4d77.4790404!9m1!1b1!16s%2Fg%2F11y5_5nx9p?entry=ttu" target="_blank" rel="noopener noreferrer" style="text-decoration:none;flex:0 0 340px;scroll-snap-align:start;display:block;">
+      <div class="review-card" style="height:100%;flex:unset;min-width:unset;max-width:unset;">
+        <div class="review-header">
+          <div style="display:flex;align-items:center;gap:10px;">
+            <div style="width:36px;height:36px;border-radius:50%;background:#f3e8fd;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:500;color:#7b1fa2;flex-shrink:0;">AS</div>
+            <div><div class="reviewer-name">Alif Shah</div><div style="font-size:0.75rem;color:var(--grey-mid);">1 week ago</div></div>
+          </div>
+          <div class="review-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        </div>
+        <div class="review-text">"Great experience getting my bike washed at TopSecret! Staff was professional and thorough. My bike looked almost brand new when they were done."</div>
+        <div class="review-source">
+          <span style="font-size:0.75rem;color:var(--grey-dim);display:flex;align-items:center;gap:5px;">
+            <svg width="13" height="13" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c(.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+            Posted on Google
+          </span>
+        </div>
+      </div>
+    </a>
+
+  </div>
+
+  <div style="text-align:center;margin-top:20px;">
+    <a href="https://www.google.com/maps/place/Top+Secret+Detailing+Studio/-/Car+Detailing,+PPF+%26+ceramic+coating/@12.985004,77.4764655,17z/data=!4m8!3m7!1s0x285855554202e949:0x7c7af74cb900434e!8m2!3d12.985004!4d77.4790404!9m1!1b1!16s%2Fg%2F11y5_5nx9p?entry=ttu" target="_blank" rel="noopener noreferrer" class="more-reviews-btn">More Reviews</a>
+  </div>
+  <div class="reviews-cta">
+    <p>Love our service? Leave us a review on Google!</p>
+    <a href="https://g.page/r/CU5DALlM93p8EBE/review" target="_blank" rel="noopener noreferrer" class="write-review-btn">Write a Google Review</a>
+  </div>
+</div>
+
+<!-- BLOG -->
+<div id="blog" class="blog-section">
+  <h2 class="reveal">Latest Blog Posts</h2>
+  <div class="blog-container">
+    <div class="blog-grid">
+
+      <!-- POST 1: Ceramic Coating -->
+      <article class="blog-card reveal">
+        <img src="images/ceramicCoating.png">
+             alt="Ceramic coating being applied to a car in Bangalore"
+             class="blog-image"
+             loading="lazy">
+        <div class="blog-content">
+          <span class="blog-category">Ceramic Coating</span>
+          <h3 class="blog-title">Ceramic Coating in Bangalore: Complete Guide</h3>
+          <p class="blog-excerpt">Bangalore's dust, monsoons, and UV altitude make ceramic coating essential — not optional. This guide covers every type, the true cost, and what separates graphene coatings from standard SiO₂.</p>
+          <div class="blog-meta">
+            <div class="blog-author">
+              <div class="blog-author-avatar">JJ</div>
+              <span>Jerold Jacob</span>
+            </div>
+            <span class="blog-date">March 15, 2025</span>
+          </div>
+          <a href="blog-ceramic-coating-bangalore.html" class="blog-read-more" aria-label="Read full guide on ceramic coating in Bangalore">Read More →</a>
+        </div>
+      </article>
+
+      <!-- POST 2: PPF -->
+      <article class="blog-card reveal">
+        <img src="images/ppf.png"
+             alt="Paint Protection Film being applied on a car at Top Secret Detailing Studio Bangalore"
+             class="blog-image"
+             loading="lazy">
+        <div class="blog-content">
+          <span class="blog-category">Paint Protection Film</span>
+          <h3 class="blog-title">PPF in Bangalore: Types &amp; What Bangalore Roads Do to Your Paint</h3>
+          <p class="blog-excerpt">Stone chips on ORR, gravel from construction zones, bike scratches in parking lots — PPF is the only product that physically stops all of it. A complete guide to coverage options and 2025 pricing.</p>
+          <div class="blog-meta">
+            <div class="blog-author">
+              <div class="blog-author-avatar">JJ</div>
+              <span>Jerold Jacob</span>
+            </div>
+            <span class="blog-date">February 28, 2025</span>
+          </div>
+          <a href="blog-ppf-bangalore.html" class="blog-read-more" aria-label="Read full guide on PPF in Bangalore">Read More →</a>
+        </div>
+      </article>
+
+      <!-- POST 3: Sun Film -->
+      <article class="blog-card reveal">
+        <img src="images/sunFilm.png"
+             alt="Car window sun film tinting at Top Secret Detailing Studio Bangalore"
+             class="blog-image"
+             loading="lazy">
+        <div class="blog-content">
+          <span class="blog-category">Sun Films &amp; Window Tint</span>
+          <h3 class="blog-title">Best Car Sun Film in Bangalore: Ceramic vs Carbon, Legal VLT Rules Guide</h3>
+          <p class="blog-excerpt">A 60°C parked cabin. FASTag interference. Supreme Court VLT rules. Choosing the right sun control film in Bangalore requires more than picking the darkest tint — here's everything you need to know.</p>
+          <div class="blog-meta">
+            <div class="blog-author">
+              <div class="blog-author-avatar">TS</div>
+              <span>Top Secret Team</span>
+            </div>
+            <span class="blog-date">February 10, 2025</span>
+          </div>
+          <a href="blog-sun-film-bangalore.html" class="blog-read-more" aria-label="Read full guide on sun films in Bangalore">Read More →</a>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="blog-cta reveal">
+      <h5>Get Expert Car Care Advice</h5>
+      <p>Questions about ceramic coating, PPF, or sun film for your specific car? Talk directly to our team — no sales pitch, just honest advice.</p>
+      <a href="https://wa.me/919632045724?text=Hi%20Top%20Secret,%20I%20have%20a%20question%20about%20car%20detailing" class="blog-cta-btn">Ask Us on WhatsApp</a>
+    </div>
+  </div>
+</div>
+
+<!-- CONTACT -->
+<section id="contact" class="contact-section">
+  <h2 class="reveal">Contact Us</h2>
+  <div class="contact-container">
+    <div class="contact-info">
+      <h5>Get In Touch</h5>
+      <p>
+        <strong>Mobile:</strong> <a href="tel:+919632045724">+91 96320 45724</a><br>
+        <strong>Email:</strong> <a href="mailto:topsecretblr@gmail.com ">topsecretblr@gmail.com</a><br>
+        <strong>Address:</strong> 197, Behind Prajwal School,<br>
+        Balaji Layout, Byadarahalli,<br>
+        Magadi Main Road, Bangalore — 560091
+      </p>
+      <div class="business-hours">
+        <h5>Business Hours</h5>
+        <p>
+          Monday – Saturday: 10:00 AM – 8:00 PM<br>
+          Sunday: <span style="color:var(--red);">Holiday</span>
+        </p>
+      </div>
+    </a>
+      <div class="social-links">
+        <h5>Follow Us</h5>
+        <div class="social-links-list">
+          <a href="https://www.instagram.com/topsecretdetailing_blr" target="_blank" rel="noopener noreferrer">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            @topsecretdetailing_blr
+          </a>
+          <a href="https://www.youtube.com/@TopSecretDetailingstudio" target="_blank" rel="noopener noreferrer">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.94 2c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg>
+            @TopSecretDetailingstudio
+          </a>
+          <a href="https://www.facebook.com/p/Topsecret-Detailing-studio" target="_blank" rel="noopener noreferrer">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            Topsecret Detailing Studio
+          </a>
+        </div>
+    </a>
+      </div>
+    </a>
+    </div>
+    </a>
+    <div class="map-container">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.9242!2d77.4790404!3d12.985004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x285855554202e949:0x7c7af74cb900434e!2sTop+Secret+Detailing+Studio!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Top Secret Detailing Studio Location"></iframe>
+    </div>
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER — updated year to 2025 -->
+<footer>
+  <div class="footer-brand">Top<span>Secret</span> Detailing Studio</div>
+  <div class="footer-copy">&copy; 2024 Top Secret Detailing Studio — 197, Balaji Layout, Magadi Main Road, Bangalore 560091 | +91 96320 45724</div>
+</footer>
+
+<!-- WHATSAPP -->
+<a href="https://wa.me/919632045724?text=Hi%20Top%20Secret%20Detailing%20Studio,%20I'm%20interested%20in%20your%20services" class="whatsapp-button" target="_blank" rel="noopener noreferrer" title="Chat on WhatsApp" aria-label="Contact us on WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.149-.67.149-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414-.074-.123-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+</a>
+
+<!-- CHATBOT -->
+<div class="chatbot-container" id="chatbotContainer">
+  <div class="chatbot-toggle" id="chatbotToggle">
+    <img src="images/bot.png" alt="CynTech Virtual Assistant" class="chatbot-icon">
+    <div class="chatbot-tooltip">Hey, I'm CynTech — ask me anything!</div>
+  </div>
+  <div class="chatbot-window" id="chatbotWindow">
+    <div class="chatbot-header">
+      <div class="chatbot-avatar">CT</div>
+      <div class="chatbot-info">
+        <h5>TheCynTech</h5>
+        <span class="chatbot-status">Virtual Assistant</span>
+      </div>
+    </a>
+      <button class="chatbot-close" id="chatbotClose" aria-label="Close chat">×</button>
+    </div>
+    </a>
+    <div class="chatbot-messages" id="chatbotMessages">
+      <div class="message bot-message"><span class="message-text">Hello! Hope you're having a great day. I'm CynTech, your virtual assistant.</span></div>
+      <div class="message bot-message"><span class="message-text">Select a service to learn more:</span></div>
+      <div class="message bot-message">
+        <div class="service-list">
+          <div class="service-item" data-service="ppf">Paint Protection Film (PPF)</div>
+          <div class="service-item" data-service="ceramic">Ceramic Coating</div>
+          <div class="service-item" data-service="correction">Paint Correction</div>
+          <div class="service-item" data-service="enhancement">Paint Enhancement Polish</div>
+          <div class="service-item" data-service="interior">Interior Cleaning</div>
+          <div class="service-item" data-service="exterior">Exterior Cleaning</div>
+          <div class="service-item" data-service="window">Window Tint / Sun Film</div>
+        </div>
+    </a>
+      </div>
+    </a>
+    </div>
+    </a>
+    <div class="chatbot-input-container">
+      <input type="text" class="chatbot-input" id="chatbotInput" placeholder="Type your message..." disabled aria-label="Chat message input">
+      <button class="chatbot-send" id="chatbotSend" disabled aria-label="Send message">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+      </button>
+    </div>
+    </a>
+  </div>
+</div>
+
+<script>
+// NAV SCROLL
+const headerMain=document.getElementById('headerMain');
+window.addEventListener('scroll',()=>headerMain.classList.toggle('scrolled',scrollY>10),{passive:true});
+
+// HAMBURGER
+const hamburger=document.getElementById('hamburger');
+const mobileNav=document.getElementById('mobileNav');
+hamburger.addEventListener('click',()=>{
+  const o=mobileNav.classList.toggle('open');
+  hamburger.classList.toggle('open',o);
+  document.body.style.overflow=o?'hidden':'';
+});
+document.querySelectorAll('.mobile-link').forEach(l=>l.addEventListener('click',()=>{
+  mobileNav.classList.remove('open');hamburger.classList.remove('open');document.body.style.overflow='';
+}));
+
+// REVEAL
+const revEls=document.querySelectorAll('.reveal');
+if('IntersectionObserver' in window){
+  const obs=new IntersectionObserver(entries=>{
+    entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target);}});
+  },{threshold:0.1});
+  revEls.forEach(el=>obs.observe(el));
+}else{revEls.forEach(el=>el.classList.add('visible'));}
+setTimeout(()=>revEls.forEach(el=>el.classList.add('visible')),1500);
+
+// VIDEO AUTOPLAY
+const heroVid=document.getElementById('heroBg');
+if(heroVid){heroVid.muted=true;heroVid.loop=true;heroVid.play().catch(()=>{});}
+
+// SWIPE SLIDER
+const swipeContainer=document.getElementById('swipeContainer');
+const dividerLine=document.getElementById('dividerLine');
+const dividerHandle=document.getElementById('dividerHandle');
+const imgRight=document.getElementById('imgRight');
+if(swipeContainer){
+  let dragging=false;
+  function setPos(pct){
+    pct=Math.max(5,Math.min(95,pct));
+    dividerLine.style.left=pct+'%';
+    dividerHandle.style.left=pct+'%';
+    imgRight.style.clipPath=`inset(0 0 0 ${pct}%)`;
+  }
+  setPos(50);
+  swipeContainer.addEventListener('mousedown',()=>{dragging=true;swipeContainer.style.cursor='grabbing';});
+  document.addEventListener('mouseup',()=>{dragging=false;swipeContainer.style.cursor='ew-resize';});
+  document.addEventListener('mousemove',e=>{if(!dragging)return;const r=swipeContainer.getBoundingClientRect();setPos((e.clientX-r.left)/r.width*100);});
+  swipeContainer.addEventListener('touchstart',()=>{dragging=true;},{passive:true});
+  document.addEventListener('touchend',()=>{dragging=false;});
+  document.addEventListener('touchmove',e=>{if(!dragging)return;const r=swipeContainer.getBoundingClientRect();setPos((e.touches[0].clientX-r.left)/r.width*100);},{passive:true});
+}
+
+// CERT SLIDESHOW
+const slides=document.querySelectorAll('.cert-slide');
+const dotsC=document.getElementById('certDots');
+const certBar=document.getElementById('certBar');
+let cur=0,timer;
+if(slides.length&&dotsC){
+  slides.forEach((_,i)=>{
+    const d=document.createElement('div');
+    d.className='cert-dot'+(i===0?' active':'');
+    d.addEventListener('click',()=>go(i));
+    dotsC.appendChild(d);
+  });
+  function startBar(){
+    if(certBar){certBar.style.transition='none';certBar.style.width='0%';
+      requestAnimationFrame(()=>requestAnimationFrame(()=>{
+        certBar.style.transition='width 3.5s linear';certBar.style.width='100%';
+      }));
+    }
+  }
+  function go(n){
+    slides[cur].classList.remove('active');
+    if(dotsC.children[cur])dotsC.children[cur].classList.remove('active');
+    cur=(n+slides.length)%slides.length;
+    slides[cur].classList.add('active');
+    if(dotsC.children[cur])dotsC.children[cur].classList.add('active');
+    clearInterval(timer);startBar();
+    timer=setInterval(()=>go(cur+1),3500);
+  }
+  document.getElementById('certNext').addEventListener('click',()=>go(cur+1));
+  document.getElementById('certPrev').addEventListener('click',()=>go(cur-1));
+  const ss=document.getElementById('certSlideshow');
+  ss.addEventListener('mouseenter',()=>{clearInterval(timer);if(certBar){certBar.style.transition='none';}});
+  ss.addEventListener('mouseleave',()=>{startBar();timer=setInterval(()=>go(cur+1),3500);});
+  let tsx=0;
+  ss.addEventListener('touchstart',e=>{tsx=e.touches[0].clientX;},{passive:true});
+  ss.addEventListener('touchend',e=>{const d=e.changedTouches[0].clientX-tsx;if(d<-40)go(cur+1);else if(d>40)go(cur-1);});
+  startBar();timer=setInterval(()=>go(cur+1),3500);
+}
+
+// CHATBOT
+const serviceInfo={
+  ppf:{name:"Paint Protection Film (PPF)",description:"PPF is a transparent self-healing film that protects your paint from stone chips, scratches, and daily damage.",whoNeeds:"Ideal for new cars or anyone wanting to preserve original paint.",price:"Starting from ₹70,000 depending on vehicle size and coverage."},
+  ceramic:{name:"Ceramic Coating",description:"Nano-ceramic liquid coating that bonds to paint — adding deep gloss, hydrophobic properties, and UV resistance.",whoNeeds:"Perfect for those who want long-lasting shine and easier maintenance.",price:"Starting from ₹20,000 for complete vehicle protection."},
+  correction:{name:"Paint Correction",description:"Machine polishing to remove swirl marks, scratches, and dullness — restoring original paint clarity and depth.",whenRequired:"When paint looks dull, hazy, or has visible scratches and swirls.",price:"Starting from ₹10,000 depending on paint condition."},
+  enhancement:{name:"Paint Enhancement Polish",description:"Light polishing to improve gloss and remove minor imperfections, giving your paint a refreshed look.",whenRequired:"When paint needs improvement but doesn't require full correction.",price:"Starting from ₹6,000 depending on paint condition."},
+  interior:{name:"Interior Cleaning",description:"Deep clean of seats, dashboard, carpets, door panels, and all interior surfaces with sanitisation and odour removal.",price:"Starting from ₹4,000 for complete interior detailing."},
+  exterior:{name:"Exterior Cleaning",description:"Foam wash, clay bar decontamination, polishing, and surface sealing for a showroom-ready finish.",price:"Starting from ₹1,500 for basic exterior detailing."},
+  window:{name:"Window Tint / Sun Film",description:"Premium solar film that blocks UV rays, reduces cabin heat, and adds privacy without compromising visibility.",price:"Starting from ₹7,000 only for windshield."}
+};
+let ctxSvc=null,chatOpen=false;
+const cToggle=document.getElementById('chatbotToggle');
+const cWin=document.getElementById('chatbotWindow');
+const cMsgs=document.getElementById('chatbotMessages');
+const cInput=document.getElementById('chatbotInput');
+const cClose=document.getElementById('chatbotClose');
+const cSend=document.getElementById('chatbotSend');
+const tooltip=document.querySelector('.chatbot-tooltip');
+let tipTimer;
+
+cToggle.addEventListener('mouseenter',()=>{tooltip.style.opacity='1';tooltip.style.visibility='visible';tipTimer=setTimeout(()=>{tooltip.style.opacity='0';tooltip.style.visibility='hidden';},3000);});
+cToggle.addEventListener('mouseleave',()=>{clearTimeout(tipTimer);tooltip.style.opacity='0';tooltip.style.visibility='hidden';});
+
+cToggle.addEventListener('click',()=>{
+  chatOpen=!chatOpen;cWin.classList.toggle('open',chatOpen);
+  if(chatOpen){cInput.disabled=false;cSend.disabled=false;cInput.focus();}
+  else{cInput.disabled=true;cSend.disabled=true;}
+});
+cClose.addEventListener('click',()=>{chatOpen=false;cWin.classList.remove('open');cInput.disabled=true;cSend.disabled=true;});
+
+function addMsg(text,who,clickable=false){
+  const d=document.createElement('div');d.className=`message ${who}-message`;
+  if(clickable){
+    d.innerHTML=`<span class="message-text clickable-question">${text}</span>`;
+    d.querySelector('.clickable-question').addEventListener('click',()=>handleQ(text));
+  }else{d.innerHTML=`<span class="message-text">${text}</span>`;}
+  cMsgs.appendChild(d);cMsgs.scrollTop=cMsgs.scrollHeight;
+}
+function showTyping(){
+  const d=document.createElement('div');d.className='message bot-message typing-indicator show';
+  d.innerHTML='<div class="typing-dot"></div><div class="typing-dot"></div><div class="typing-dot"></div>';
+  cMsgs.appendChild(d);cMsgs.scrollTop=cMsgs.scrollHeight;
+}
+function hideTyping(){const t=cMsgs.querySelector('.typing-indicator');if(t)t.remove();}
+
+document.querySelectorAll('.service-item').forEach(item=>{
+  item.addEventListener('click',()=>{
+    const svc=item.dataset.service;const info=serviceInfo[svc];if(!info)return;
+    ctxSvc=svc;addMsg(`What is ${info.name}?`,'user');showTyping();
+    setTimeout(()=>{
+      hideTyping();addMsg(info.description,'bot');
+      setTimeout(()=>{
+        if(svc==='ppf'){addMsg('Who needs PPF?','bot',true);addMsg('Get PPF price','bot',true);}
+        else if(svc==='ceramic'){addMsg('Who needs ceramic coating?','bot',true);addMsg('Get ceramic coating price','bot',true);}
+        else if(svc==='correction'){addMsg('When is paint correction needed?','bot',true);addMsg('Get paint correction price','bot',true);}
+        else if(svc==='enhancement'){addMsg('When is paint enhancement needed?','bot',true);addMsg('Get paint enhancement polish price','bot',true);}
+        else{addMsg(`Get ${info.name} price`,'bot',true);}
+      },800);
+    },1200);
+  });
+});
+
+function handleQ(q){
+  addMsg(q,'user');showTyping();
+  setTimeout(()=>{
+    hideTyping();
+    const ql=q.toLowerCase();
+    if(ql.includes('who needs')||ql.includes('when is')){
+      const info=serviceInfo[ctxSvc];
+      addMsg(info.whoNeeds||info.whenRequired||info.description,'bot');
+      addMsg(`Get ${info.name} price`,'bot',true);
+    }else if(ql.includes('price')){
+      const key=ql.includes('ppf')?'ppf':ql.includes('ceramic')?'ceramic':ql.includes('correction')?'correction':ql.includes('enhancement')?'enhancement':ql.includes('interior')?'interior':ql.includes('exterior')?'exterior':ql.includes('window')?'window':ctxSvc;
+      addMsg(serviceInfo[key]?.price||'Please contact us for pricing.','bot');
+      setTimeout(()=>addMsg('Prices shown are starting rates. The exact cost will be determined based on the vehicle\'s size and overall condition.','bot'),800);
+      setTimeout(()=>addMsg('For bookings contact Mr. Jerold Jacob — +91 96320 45724','bot'),1600);
+    }
+  },1000);
+}
+
+function sendMsg(){
+  const v=cInput.value.trim();if(!v)return;
+  addMsg(v,'user');cInput.value='';showTyping();
+  setTimeout(()=>{hideTyping();addMsg(`For details on "${v}" please contact Mr. Jerold Jacob — +91 96320 45724`,'bot');},900);
+}
+cSend.addEventListener('click',sendMsg);
+cInput.addEventListener('keypress',e=>{if(e.key==='Enter')sendMsg();});
+document.addEventListener('click',e=>{
+  if(chatOpen&&!cWin.contains(e.target)&&!cToggle.contains(e.target)){
+    chatOpen=false;cWin.classList.remove('open');cInput.disabled=true;cSend.disabled=true;
+  }
+});
+
+// BRANDS MARQUEE
+(function(){
+  const wrapper = document.getElementById('marqueeWrapper');
+  const track = document.getElementById('marqueeTrack');
+  if(!wrapper || !track) return;
+
+  const SPEED = 40; // px per second
+  let offset = 0;
+  let raf;
+  let lastT;
+  let dragging = false;
+  let dragX = 0;
+  let dragOffset = 0;
+  let paused = false;
+
+  function halfW(){ return track.scrollWidth / 2; }
+
+  function clamp(v){
+    const h = halfW();
+    v = v % h;
+    if(v < 0) v += h;
+    return v;
+  }
+
+  function apply(){ track.style.transform = `translateX(-${offset}px)`; }
+
+  function tick(t){
+    if(lastT && !dragging && !paused){
+      offset = clamp(offset + SPEED * (t - lastT) / 1000);
+      apply();
+    }
+    lastT = t;
+    raf = requestAnimationFrame(tick);
+  }
+
+  wrapper.style.overflow = 'hidden';
+  wrapper.style.cursor = 'grab';
+  track.style.animation = 'none';
+  track.style.willChange = 'transform';
+  raf = requestAnimationFrame(tick);
+
+  // ── MOUSE ──
+  wrapper.addEventListener('mouseenter', () => { paused = true; });
+  wrapper.addEventListener('mouseleave', () => { if(!dragging){ paused = false; lastT = null; } });
+
+  wrapper.addEventListener('mousedown', (e) => {
+    dragging = true;
+    paused = true;
+    dragX = e.clientX;
+    dragOffset = offset;
+    wrapper.style.cursor = 'grabbing';
+  });
+
+  window.addEventListener('mousemove', (e) => {
+    if(!dragging) return;
+    offset = clamp(dragOffset - (e.clientX - dragX));
+    apply();
+  });
+
+  window.addEventListener('mouseup', () => {
+    if(!dragging) return;
+    dragging = false;
+    paused = false;
+    lastT = null;
+    wrapper.style.cursor = 'grab';
+  });
+
+  // ── TOUCH ──
+  let t0 = 0, o0 = 0;
+
+  wrapper.addEventListener('touchstart', (e) => {
+    dragging = true;
+    paused = true;
+    t0 = e.touches[0].clientX;
+    o0 = offset;
+  }, {passive: true});
+
+  window.addEventListener('touchmove', (e) => {
+    if(!dragging) return;
+    offset = clamp(o0 - (e.touches[0].clientX - t0));
+    apply();
+  }, {passive: true});
+
+  window.addEventListener('touchend', () => {
+    if(!dragging) return;
+    dragging = false;
+    paused = false;
+    lastT = null;
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paint Correction in Bangalore | Top Secret Detailing Studio</title>
+<meta name="description" content="Professional paint correction service in Bangalore. Remove swirl marks, scratches, and restore your car's paint to showroom perfection.">
+<meta name="keywords" content="paint correction Bangalore, scratch removal, car polishing, swirl mark removal, paint restoration Bangalore">
+<meta name="author" content="Top Secret Detailing Studio">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.topsecretdetailingblr.in/paint-correction-bangalore.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Paint Correction in Bangalore | Top Secret Detailing Studio">
+<meta property="og:description" content="Professional paint correction service in Bangalore. Remove swirl marks, scratches, and restore your car's paint to showroom perfection.">
+<meta property="og:url" content="https://www.topsecretdetailingblr.in/paint-correction-bangalore.html">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Paint Correction",
+  "provider": {
+    "@type": "AutoRepair",
+    "name": "Top Secret Detailing Studio",
+    "telephone": "+919632045724",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "197, Behind Prajwal School, Balaji Layout, Byadarahalli, Magadi Main Road",
+      "addressLocality": "Bangalore",
+      "addressRegion": "Karnataka",
+      "postalCode": "560091",
+      "addressCountry": "IN"
+    }
+  },
+  "areaServed": "Bangalore",
+  "description": "Professional paint correction service in Bangalore. Remove swirl marks, scratches, and restore your car's paint to showroom perfection.",
+  "url": "https://www.topsecretdetailingblr.in/paint-correction-bangalore.html"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is paint correction?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Paint correction is the process of removing imperfections from a vehicle's paintwork using specialized machine polishing techniques. This removes swirl marks, scratches, and other defects."}
+    },
+    {
+      "@type": "Question",
+      "name": "How long does paint correction take?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Paint correction typically takes 1-2 days depending on the vehicle's condition and size. Heavily damaged vehicles may require additional time."}
+    },
+    {
+      "@type": "Question",
+      "name": "Will paint correction remove all scratches?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Paint correction can remove 80-95% of surface-level scratches and swirl marks. Deep scratches that have penetrated through the clear coat cannot be completely removed."}
+    },
+    {
+      "@type": "Question",
+      "name": "Is paint correction safe for my car?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Yes. Professional paint correction is completely safe when performed by trained technicians using proper techniques and measuring paint thickness throughout the process."}
+    }
+  ]
+}
+</script>
+
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --red:#A80521;--black:#080808;--surface:#0d0d0d;
+  --card:#141414;--line:#1e1e1e;--grey:#C8CACD;
+  --grey-mid:#9A9C9F;--grey-dim:#555;--white:#F4F4F4;
+  --ft:'Bebas Neue',sans-serif;--fb:'DM Sans',sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--black);color:var(--white);font-family:var(--fb);font-weight:300;line-height:1.7;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+
+/* ─── NAV ─── */
+.nav{
+  position:fixed;top:0;left:0;right:0;z-index:100;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:14px 5%;
+  background:rgba(168,5,33,0.3);
+  backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
+  border-bottom:1px solid rgba(255,255,255,0.04);
+}
+.logomain{height:34px;width:auto;}
+.nav-links{display:flex;gap:2px;list-style:none;}
+.nav-links a{
+  color:var(--white);font-family:var(--fb);font-weight:500;
+  padding:7px 15px;font-size:0.86rem;letter-spacing:0.6px;
+  transition:color 0.2s;white-space:nowrap;
+  text-shadow:0 1px 3px rgba(0,0,0,0.9),0 0 12px rgba(0,0,0,0.6);
+}
+.nav-links a:hover{color:rgba(255,255,255,0.75);}
+.nav-cta{
+  background:var(--red)!important;color:var(--white)!important;
+  border-radius:3px;font-family:var(--ft);
+  letter-spacing:1.5px!important;font-size:0.78rem!important;
+}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:4px;}
+.hamburger span{display:block;width:22px;height:1.5px;background:var(--white);transition:all 0.3s;}
+.hamburger.open span:nth-child(1){transform:translateY(6.5px) rotate(45deg);}
+.hamburger.open span:nth-child(2){opacity:0;}
+.hamburger.open span:nth-child(3){transform:translateY(-6.5px) rotate(-45deg);}
+.mob-nav{
+  display:none;position:fixed;inset:0;z-index:99;
+  background:rgba(0,0,0,0.98);
+  flex-direction:column;align-items:center;justify-content:center;gap:24px;
+  opacity:0;pointer-events:none;transition:opacity 0.3s;
+}
+.mob-nav.open{opacity:1;pointer-events:all;}
+.mob-nav a{font-family:var(--ft);font-size:2.4rem;letter-spacing:3px;color:var(--white);transition:color 0.2s;}
+.mob-nav a:hover{color:var(--red);}
+
+/* ─── HERO ─── */
+.hero{
+  position:relative;  min-height:100vh;
+  display:flex;flex-direction:column;justify-content:flex-end;
+  padding:70px 5% 64px;
+  overflow:hidden;
+}
+.hero-bg{
+  position:absolute;inset:0;
+  background:
+    linear-gradient(to right, rgba(8,8,8,0.92) 40%, rgba(8,8,8,0.4) 100%),
+    linear-gradient(to top, rgba(8,8,8,0.9) 0%, transparent 50%);
+  z-index:1;
+}
+.hero-texture{
+  position:absolute;inset:0;
+  background-image:
+    repeating-linear-gradient(0deg, transparent, transparent 80px, rgba(168,5,33,0.03) 80px, rgba(168,5,33,0.03) 81px),
+    repeating-linear-gradient(90deg, transparent, transparent 80px, rgba(255,255,255,0.01) 80px, rgba(255,255,255,0.01) 81px);
+  z-index:0;
+}
+.hero-img-wrap{
+  position:absolute;inset:0;
+  background:#0a0a0a;
+  z-index:0;
+}
+.hero-img-wrap img{width:100%;height:100%;object-fit:cover;opacity:0.45;}
+.hero-content{position:relative;z-index:2;max-width:760px;}
+.hero-eyebrow{
+  display:inline-flex;align-items:center;gap:10px;
+  font-family:var(--ft);font-size:0.6rem;letter-spacing:0.4em;
+  color:var(--red);text-transform:uppercase;margin-bottom:20px;
+}
+.hero-eyebrow::before{content:'';display:block;width:28px;height:1px;background:var(--red);}
+.hero h1{
+  font-family:var(--ft);
+  font-size:clamp(1.5rem,4vw,2.8rem);
+  letter-spacing:0.05em;line-height:0.92;
+  color:var(--white);text-transform:uppercase;
+  margin-bottom:28px;
+}
+.hero h1 em{display:block;color:var(--red);font-style:normal;}
+.hero-sub{
+  font-size:1.05rem;color:var(--grey-mid);
+  max-width:520px;line-height:1.9;margin-bottom:40px;
+}
+.hero-actions{display:flex;align-items:center;gap:16px;flex-wrap:wrap;}
+.btn-primary{
+  display:inline-flex;align-items:center;gap:8px;
+  background:var(--red);color:var(--white);
+  padding:14px 28px;border-radius:3px;
+  font-family:var(--ft);font-size:1rem;letter-spacing:2px;text-transform:uppercase;
+  transition:opacity 0.2s;
+}
+.btn-primary:hover{opacity:0.85;}
+.btn-ghost{
+  display:inline-flex;align-items:center;gap:8px;
+  border:1px solid rgba(255,255,255,0.2);color:var(--grey);
+  padding:13px 26px;border-radius:3px;
+  font-family:var(--ft);font-size:0.95rem;letter-spacing:1.5px;text-transform:uppercase;
+  transition:border-color 0.2s,color 0.2s;
+}
+.btn-ghost:hover{border-color:rgba(255,255,255,0.5);color:var(--white);}
+.hero-stats{
+  position:relative;z-index:2;
+  display:flex;gap:0;margin-top:52px;
+  border-top:1px solid rgba(255,255,255,0.07);
+  padding-top:32px;max-width:520px;
+}
+.hero-stat{flex:1;padding-right:24px;}
+.hero-stat+.hero-stat{border-left:1px solid rgba(255,255,255,0.07);padding-left:24px;}
+.stat-num{font-family:var(--ft);font-size:2.2rem;color:var(--red);line-height:1;letter-spacing:-0.5px;}
+.stat-label{font-size:0.75rem;color:var(--grey-dim);letter-spacing:0.08em;margin-top:4px;}
+
+/* ─── WHAT IS PAINT CORRECTION ─── */
+.intro-section{
+  display:grid;grid-template-columns:1fr 1fr;
+  max-width:1300px;margin:0 auto;
+  border-bottom:1px solid var(--line);
+}
+.intro-left{
+  padding:80px 5% 80px 5%;
+  border-right:1px solid var(--line);
+}
+.intro-right{
+  padding:80px 5%;
+  display:flex;flex-direction:column;justify-content:center;
+}
+.section-tag{
+  font-family:var(--ft);font-size:0.58rem;letter-spacing:0.4em;
+  color:var(--red);text-transform:uppercase;
+  margin-bottom:16px;display:flex;align-items:center;gap:10px;
+}
+.section-tag::before{content:'';display:block;width:20px;height:1px;background:var(--red);}
+.intro-left h2{
+  font-family:var(--ft);font-size:clamp(2rem,4vw,3.2rem);
+  letter-spacing:0.1em;text-transform:uppercase;
+  color:var(--white);line-height:1.05;margin-bottom:24px;
+}
+.intro-left p,.intro-right p{font-size:1.1rem;color:var(--grey-mid);line-height:1.8;}
+.big-stat{
+  font-family:var(--ft);font-size:5rem;color:var(--red);
+  line-height:1;letter-spacing:-1px;margin-bottom:8px;
+}
+.big-stat-label{font-size:0.8rem;color:var(--grey-dim);letter-spacing:0.1em;text-transform:uppercase;}
+
+/* ─── WHY BANGALORE ─── */
+.bangalore-section{
+  padding:60px 5%;max-width:1300px;margin:0 auto;
+  border-bottom:1px solid var(--line);
+}
+.bangalore-section h2{
+  font-family:var(--ft);font-size:clamp(1.8rem,4vw,3rem);
+  letter-spacing:0.12em;text-transform:uppercase;color:var(--white);
+  margin-bottom:48px;max-width:600px;
+}
+.blr-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);}
+.blr-card{
+  background:var(--black);padding:32px 28px;
+  transition:background 0.2s;
+}
+.blr-card:hover{background:var(--card);}
+.blr-num{
+  font-family:var(--ft);font-size:2.5rem;color:#1e1e1e;
+  line-height:1;margin-bottom:12px;
+}
+.blr-title{
+  font-family:var(--ft);font-size:1.1rem;letter-spacing:0.08em;
+  color:var(--white);text-transform:uppercase;margin-bottom:10px;
+}
+.blr-desc{font-size:0.92rem;color:var(--grey-mid);line-height:1.7;}
+
+/* ─── WHO NEEDS ─── */
+.who-section{
+  padding:80px 5%;max-width:1300px;margin:0 auto;
+  border-bottom:1px solid var(--line);
+}
+.who-section h2{
+  font-family:var(--ft);font-size:clamp(1.8rem,4vw,3rem);
+  letter-spacing:0.12em;text-transform:uppercase;color:var(--white);
+  margin-bottom:48px;
+}
+.who-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);}
+.who-card{background:var(--black);padding:30px 26px;transition:background 0.2s;}
+.who-card:hover{background:var(--card);}
+.who-icon{
+  width:42px;height:42px;border:1px solid var(--line);border-radius:3px;
+  display:flex;align-items:center;justify-content:center;
+  margin-bottom:16px;
+  font-family:var(--ft);font-size:1rem;color:var(--red);letter-spacing:0.05em;
+}
+.who-title{
+  font-family:var(--ft);font-size:1.05rem;letter-spacing:0.08em;
+  color:var(--white);text-transform:uppercase;margin-bottom:8px;
+}
+.who-desc{font-size:0.85rem;color:var(--grey-mid);line-height:1.7;}
+
+/* ─── PROCESS ─── */
+.process-section{
+  background:var(--surface);
+  border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+}
+.process-inner{padding:80px 5%;max-width:1300px;margin:0 auto;}
+.process-inner h2{
+  font-family:var(--ft);font-size:clamp(1.8rem,4vw,3rem);
+  letter-spacing:0.12em;text-transform:uppercase;color:var(--white);
+  margin-bottom:56px;
+}
+.process-steps{display:flex;flex-direction:column;}
+.step{
+  display:grid;grid-template-columns:80px 1fr;gap:0 32px;
+  padding:28px 0;border-bottom:1px solid var(--line);
+  align-items:start;
+}
+.step:last-child{border-bottom:none;}
+.step-num{
+  font-family:var(--ft);font-size:3.5rem;color:#1a1a1a;
+  line-height:1;padding-top:2px;
+}
+.step-title{
+  font-family:var(--ft);font-size:1.3rem;letter-spacing:0.08em;
+  color:var(--white);text-transform:uppercase;margin-bottom:8px;
+}
+.step-desc{font-size:0.92rem;color:var(--grey-mid);line-height:1.75;}
+
+/* ─── FAQ ─── */
+.faq-section{
+  padding:80px 5%;max-width:1300px;margin:0 auto;
+  border-bottom:1px solid var(--line);
+}
+.faq-section h2{
+  font-family:var(--ft);font-size:clamp(1.8rem,4vw,3rem);
+  letter-spacing:0.12em;text-transform:uppercase;color:var(--white);
+  margin-bottom:48px;
+}
+.faq-item{border-bottom:1px solid var(--line);}
+.faq-item:first-of-type{border-top:1px solid var(--line);}
+.faq-q{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:22px 0;cursor:pointer;gap:16px;
+}
+.faq-q-text{
+  font-family:var(--ft);font-size:1.05rem;letter-spacing:0.06em;
+  color:var(--white);text-transform:uppercase;
+}
+.faq-icon{
+  width:28px;height:28px;border:1px solid var(--line);
+  border-radius:50%;display:flex;align-items:center;justify-content:center;
+  flex-shrink:0;font-size:1.1rem;color:var(--grey-mid);
+  transition:background 0.2s,border-color 0.2s;
+}
+.faq-item.open .faq-icon{background:var(--red);border-color:var(--red);color:var(--white);}
+.faq-a{
+  display:none;padding:0 0 22px;
+  font-size:0.95rem;color:var(--grey);line-height:1.85;
+  max-width:760px;
+}
+.faq-item.open .faq-a{display:block;}
+
+/* ─── CTA ─── */
+.cta-section{
+  margin:0;padding:80px 5%;
+  background:var(--surface);
+  border-top:1px solid var(--line);
+  text-align:center;
+}
+.cta-eyebrow{
+  font-family:var(--ft);font-size:0.6rem;letter-spacing:0.4em;
+  color:var(--red);text-transform:uppercase;margin-bottom:16px;
+}
+.cta-section h2{
+  font-family:var(--ft);font-size:clamp(2rem,5vw,3.8rem);
+  letter-spacing:0.12em;text-transform:uppercase;color:var(--white);
+  margin-bottom:16px;line-height:1;
+}
+.cta-section p{font-size:1rem;color:var(--grey-mid);margin-bottom:36px;}
+.cta-actions{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;}
+
+/* ─── RELATED ─── */
+.related-section{
+  padding:60px 5%;max-width:1300px;margin:0 auto;
+}
+.related-label{
+  font-family:var(--ft);font-size:0.58rem;letter-spacing:0.4em;
+  color:var(--grey-dim);text-transform:uppercase;margin-bottom:20px;
+}
+.related-links{display:flex;gap:12px;flex-wrap:wrap;}
+.related-link{
+  border:1px solid var(--line);border-radius:3px;
+  padding:14px 20px;flex:1;min-width:200px;
+  transition:border-color 0.2s;
+}
+.related-link:hover{border-color:var(--red);}
+.related-link-cat{
+  font-family:var(--ft);font-size:0.55rem;letter-spacing:0.25em;
+  color:var(--red);text-transform:uppercase;margin-bottom:5px;display:block;
+}
+.related-link-name{font-size:0.88rem;color:var(--grey);}
+
+/* ─── FOOTER ─── */
+footer{
+  background:var(--black);border-top:1px solid var(--line);
+  padding:22px 5%;display:flex;align-items:center;justify-content:space-between;
+  flex-wrap:wrap;gap:8px;
+}
+.footer-brand{font-family:var(--ft);font-size:0.95rem;letter-spacing:0.2em;color:var(--grey-dim);}
+.footer-brand em{color:var(--red);font-style:normal;}
+.footer-copy{font-size:0.68rem;letter-spacing:0.1em;color:var(--grey-dim);}
+
+/* ─── WA ─── */
+.wa{
+  position:fixed;bottom:22px;right:22px;
+  width:52px;height:52px;background:#25D366;
+  border-radius:50%;display:flex;align-items:center;justify-content:center;
+  box-shadow:0 4px 16px rgba(0,0,0,0.4);transition:transform 0.2s;z-index:99;
+}
+.wa:hover{transform:scale(1.08);}
+.wa svg{width:26px;height:26px;fill:white;}
+
+/* ─── REVEAL ─── */
+.reveal{opacity:0;transform:translateY(20px);transition:opacity 0.65s ease,transform 0.65s ease;}
+.reveal.visible{opacity:1;transform:none;}
+
+/* ─── RESPONSIVE ─── */
+@media(max-width:1000px){
+  .intro-section{grid-template-columns:1fr;}
+  .intro-left{border-right:none;border-bottom:1px solid var(--line);padding:56px 5%;}
+  .intro-right{padding:48px 5%;}
+  .blr-grid{grid-template-columns:1fr 1fr;}
+  .who-grid{grid-template-columns:1fr 1fr;}
+}
+@media(max-width:900px){
+  .nav-links{display:none;}
+  .hamburger{display:flex;}
+  .mob-nav{display:flex;}
+}
+@media(max-width:640px){
+  .hero{min-height:100svh;padding:0 4% 52px;}
+  .hero h1{font-size:clamp(3rem,13vw,5rem);}
+  .hero-stats{flex-wrap:wrap;gap:20px;}
+  .hero-stat+.hero-stat{border-left:none;padding-left:0;}
+  .bangalore-section,.who-section,.faq-section,.process-inner,.related-section{padding:56px 4%;}
+  .blr-grid{grid-template-columns:1fr;}
+  .who-grid{grid-template-columns:1fr;}
+  .step{grid-template-columns:50px 1fr;gap:0 16px;}
+  .step-num{font-size:2.5rem;}
+  footer{flex-direction:column;text-align:center;padding:18px 4%;}
+  .wa{width:48px;height:48px;bottom:16px;right:16px;}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<div class="nav">
+  <a href="indexVieoBG.html"><img class="logomain" src="images/ts/TopSecretBanglore_Logo.png" alt="Top Secret Detailing Studio"></a>
+  <ul class="nav-links">
+    <li><a href="indexVieoBG.html">Home</a></li>
+    <li><a href="indexVieoBG.html#services">Services</a></li>
+    <li><a href="indexVieoBG.html#about">About</a></li>
+    <li><a href="indexVieoBG.html#blog">Blog</a></li>
+    <li><a href="https://wa.me/919632045724?text=Hi%20Top%20Secret,%20I'm%20interested%20in%20paint%20correction" class="nav-cta">Book Now</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</div>
+
+<nav class="mob-nav" id="mobileNav">
+  <a href="indexVieoBG.html">Home</a>
+  <a href="indexVieoBG.html#services">Services</a>
+  <a href="indexVieoBG.html#about">About</a>
+  <a href="indexVieoBG.html#certifications">Certifications</a>
+  <a href="indexVieoBG.html#reviews">Reviews</a>
+  <a href="indexVieoBG.html#contact">Contact</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-texture"></div>
+  <div class="hero-bg"></div>
+  <div class="hero-img-wrap">
+    <img src="images/paintCorrection.png" alt="Paint correction being performed at Top Secret Detailing Studio Bangalore">
+  </div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Paint Correction</div>
+    <h1>Restore Your<br><em>Paint.</em><br>Perfection.</h1>
+    <p class="hero-sub">Professional machine polishing removes swirl marks, scratches, and imperfections. Restore that deep, glossy showroom finish with our precision paint correction service.</p>
+    <div class="hero-actions">
+      <a href="https://wa.me/919632045724?text=Hi%20Top%20Secret,%20I'm%20interested%20in%20paint%20correction%20for%20my%20car" class="btn-primary">Get a Free Quote →</a>
+      <a href="#what-is-paint-correction" class="btn-ghost">Learn More</a>
+    </div>
+  </div>
+  <div class="hero-stats">
+    <div class="hero-stat">
+      <div class="stat-num">95%</div>
+      <div class="stat-label">Defects Removed</div>
+    </div>
+    <div class="hero-stat">
+      <div class="stat-num">1–2</div>
+      <div class="stat-label">Days Service</div>
+    </div>
+    <div class="hero-stat">
+      <div class="stat-num">5★</div>
+      <div class="stat-label">Google Rating</div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT IS PAINT CORRECTION -->
+<div id="what-is-paint-correction" class="intro-section">
+  <div class="intro-left reveal">
+    <span class="section-tag">What is Paint Correction</span>
+    <h2>Perfect Paint<br>Restoration</h2>
+    <p>Paint correction removes swirl marks, scratches, and imperfections using specialized machine polishing. We safely eliminate defects to restore your car's showroom finish.</p>
+  </div>
+  <div class="intro-right reveal">
+    <div class="big-stat">80%</div>
+    <div class="big-stat-label">improvement in gloss & clarity</div>
+    <p style="margin-top:24px;">Bangalore's dust and pollution create swirl marks and micro-scratches. Our process addresses these specific challenges with precision.</p>
+  </div>
+</div>
+
+<!-- WHY BANGALORE -->
+<div class="bangalore-section reveal">
+  <span class="section-tag">Why Bangalore</span>
+  <h2>Paint Damage<br>Challenges</h2>
+  <div class="blr-grid">
+    <div class="blr-card">
+      <div class="blr-num">01</div>
+      <div class="blr-title">Fine Dust Pollution</div>
+      <div class="blr-desc">Construction and road dust create micro-scratches during washing.</div>
+    </div>
+    <div class="blr-card">
+      <div class="blr-num">02</div>
+      <div class="blr-title">Hard Water Spots</div>
+      <div class="blr-desc">Mineral deposits from water supply etch paint surfaces.</div>
+    </div>
+    <div class="blr-card">
+      <div class="blr-num">03</div>
+      <div class="blr-title">Improper Washing</div>
+      <div class="blr-desc">Limited professional detailing access leads to improper washing techniques.</div>
+    </div>
+    <div class="blr-card">
+      <div class="blr-num">04</div>
+      <div class="blr-title">UV Damage</div>
+      <div class="blr-desc">High elevation sun exposure causes paint oxidation and reduces gloss.</div>
+    </div>
+    <div class="blr-card">
+      <div class="blr-num">05</div>
+      <div class="blr-title">Acidic Contaminants</div>
+      <div class="blr-desc">Bird droppings and tree sap contain acids that etch paint permanently.</div>
+    </div>
+    <div class="blr-card">
+      <div class="blr-num">06</div>
+      <div class="blr-title">Environmental Fallout</div>
+      <div class="blr-desc">Industrial pollution creates chemical deposits that bond to paint.</div>
+    </div>
+  </div>
+</div>
+
+<!-- WHO NEEDS -->
+<div class="who-section reveal">
+  <span class="section-tag">Who Needs It</span>
+  <h2>Is Paint Correction Right for You?</h2>
+  <div class="who-grid">
+    <div class="who-card">
+      <div class="who-icon">USE</div>
+      <div class="who-title">Used Car Buyers</div>
+      <div class="who-desc">Restore a pre-owned vehicle's appearance to like-new condition and protect your investment.</div>
+    </div>
+    <div class="who-card">
+      <div class="who-icon">ENT</div>
+      <div class="who-title">Car Enthusiasts</div>
+      <div class="who-desc">Achieve show-quality finish and maintain the pride of ownership with perfectly corrected paint.</div>
+    </div>
+    <div class="who-card">
+      <div class="who-icon">SEL</div>
+      <div class="who-title">Selling Your Car</div>
+      <div class="who-desc">Command higher resale value with professionally corrected paint that impresses potential buyers.</div>
+    </div>
+    <div class="who-card">
+      <div class="who-icon">SWI</div>
+      <div class="who-title">Swirl Mark Sufferers</div>
+      <div class="who-desc">Eliminate unsightly circular patterns from improper washing and restore clarity.</div>
+    </div>
+    <div class="who-card">
+      <div class="who-icon">PRE</div>
+      <div class="who-title">Pre-Coating Prep</div>
+      <div class="who-desc">Create perfect surface foundation for ceramic coating or PPF application.</div>
+    </div>
+    <div class="who-card">
+      <div class="who-icon">MET</div>
+      <div class="who-title">Metallic Paints</div>
+      <div class="who-desc">Enhance and restore special paint finishes, bringing out depth in metallic and pearlescent colors.</div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-brand">Top<em>Secret</em> Detailing Studio</div>
+  <div class="footer-copy">&copy; 2025 Top Secret Detailing Studio · 197, Balaji Layout, Magadi Main Road, Bangalore 560091 · +91 96320 45724</div>
+</footer>
+
+<!-- WHATSAPP -->
+<a href="https://wa.me/919632045724?text=Hi%20Top%20Secret,%20I'm%20interested%20in%20paint%20correction%20for%20my%20car" class="wa" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.149-.67.149-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414-.074-.123-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+</a>
+
+<script>
+// NAV
+const hamburger=document.getElementById('hamburger');
+const mobileNav=document.getElementById('mobileNav');
+hamburger.addEventListener('click',()=>{
+  const o=mobileNav.classList.toggle('open');
+  hamburger.classList.toggle('open',o);
+  document.body.style.overflow=o?'hidden':'';
+});
+mobileNav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
+  mobileNav.classList.remove('open');hamburger.classList.remove('open');document.body.style.overflow='';
+}));
+
+// REVEAL
+if('IntersectionObserver' in window){
+  const obs=new IntersectionObserver(entries=>{
+    entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target);}});
+  },{threshold:0.08});
+  document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+}else{document.querySelectorAll('.reveal').forEach(el=>el.classList.add('visible'));}
+
+// FAQ
+function toggleFaq(el){
+  const item=el.parentElement;
+  const isOpen=item.classList.contains('open');
+  document.querySelectorAll('.faq-item.open').forEach(i=>i.classList.remove('open'));
+  if(!isOpen)item.classList.add('open');
+}
+</script>
+</body>
+</html>
